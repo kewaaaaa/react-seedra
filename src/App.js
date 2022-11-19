@@ -5,12 +5,10 @@ import Elyor from "./Elyor/elyor";
 import Nodir from "./Nodir/ownComponent";
 import Something from "./Nozimbek/Something";
 import Footer from "./IslombekNosirov/footer";
-import { Provider } from 'react-redux';
+import Bunyodbek from "./Bunyodbek/bunyodbek";
+import { Provider } from "react-redux";
 import { store } from "./Gofur/store/store";
 import { GofursComponent } from "./Gofur/App";
-
-
-
 
 function App() {
   return (
@@ -22,8 +20,9 @@ function App() {
       <Nodir name="Nodir" title="Web Dev" />
       <Something />
       <Footer />
+      <Bunyodbek />
       <Provider store={store}>
-        <GofursComponent/>
+        <GofursComponent />
       </Provider>
     </>
   );

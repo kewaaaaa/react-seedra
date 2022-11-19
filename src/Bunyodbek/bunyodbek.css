@@ -1,0 +1,39 @@
+.sideBar {
+  width: 100px;
+  height: 100px;
+  background-color: #15202b;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  right: 0;
+  top: 0;
+}
+.sideBar .bunyodbekUl {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.bunyodbekUl {
+  display: block;
+  width: 100%;
+}
+.bunyodbekUl li {
+  display: block;
+}
+.bunyodbekUl li a {
+  display: block;
+  width: 100px;
+  padding: 20px 0px;
+  text-decoration: none;
+  color: white;
+}
+.bunyodbekUl a:hover {
+  background-color: #04aa6d;
+}
