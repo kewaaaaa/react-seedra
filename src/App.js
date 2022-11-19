@@ -1,18 +1,18 @@
 import "./App.css";
 import Javohir from "./Javohir/javohir";
 import Najmiddin from "./Najmiddin/Najmiddin";
-import Islom from './Islom/Islom'
+import Islom from "./Islom/Islom";
 import Elyor from "./Elyor/elyor";
-
+import Nodir from "./Nodir/ownComponent";
 
 function App() {
   return (
     <>
-      <Elyor/>
+      <Elyor />
       <Javohir />
       <Najmiddin />
-      <Islom name='Islom' job='Developer' />
-
+      <Islom name="Islom" job="Developer" />
+      <Nodir name="Nodir" title="Web Dev" />
     </>
   );
 }
