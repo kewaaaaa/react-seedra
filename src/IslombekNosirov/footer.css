@@ -1,0 +1,13 @@
+footer {
+  height: 60px;
+  background: red;
+  bottom: 0;
+  margin-top: 341px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerh1 {
+  color: #fff;
+  margin: 0;
+}
