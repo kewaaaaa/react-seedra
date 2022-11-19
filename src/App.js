@@ -13,6 +13,7 @@ import { GofursComponent } from "./Gofur/App";
 function App() {
   return (
     <>
+      <Fazliddin text="nmadr" />
       <Elyor />
       <Javohir />
       <Najmiddin />

@@ -1,7 +1,11 @@
 import "./button.scss";
 
 function button(proms) {
-  return <button classNae="button">{proms.text}</button>;
+  return (
+    <a className="button-b" href="https:/google.com/" target="_blank">
+      {proms.text}
+    </a>
+  );
 }
 
 export default button;
