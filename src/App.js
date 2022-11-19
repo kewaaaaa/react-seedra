@@ -10,6 +10,7 @@ import { Provider } from "react-redux";
 import { store } from "./Gofur/store/store";
 import { GofursComponent } from "./Gofur/App";
 import Card from "./Abdulloh/Cards";
+import Quvondiq from "./Quvondiq/Quvondiq";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <GofursComponent />
       </Provider>
       <Card />
+      <Quvondiq/>
     </>
   );
 }
