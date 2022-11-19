@@ -25,6 +25,7 @@ function App() {
       <Provider store={store}>
         <GofursComponent/>
       </Provider>
+      Abdulloh
     </>
   );
 }
