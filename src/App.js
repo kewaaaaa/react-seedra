@@ -9,6 +9,7 @@ import Fazliddin from "./fazliddin/button";
 import { Provider } from "react-redux";
 import { store } from "./Gofur/store/store";
 import { GofursComponent } from "./Gofur/App";
+import Card from "./Abdulloh/Cards";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Provider store={store}>
         <GofursComponent />
       </Provider>
+      <Card />
     </>
   );
 }

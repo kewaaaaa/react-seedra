@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: start;
+  padding: 20px;
+}
+
+.h1, .h3{
+  text-align: center;
+  margin-top: 5px;
+}
+
+.card-wrap{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.card{
+  width: 260px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 5px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.card h4{
+  margin-top: 10px;
+}
+
+.card p{
+  margin-top: 5px;
+}
+
+img{
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
