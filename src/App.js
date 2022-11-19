@@ -8,6 +8,7 @@ import Nodir from "./Nodir/ownComponent";
 function App() {
   return (
     <>
+      <Something />
       <Elyor />
       <Javohir />
       <Najmiddin />
