@@ -1,11 +1,5 @@
-
-
 function App() {
-  return (
-    <>
-      cleared
-    </>
-  );
+  return <></>;
 }
 
 export default App;
