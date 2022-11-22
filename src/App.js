@@ -1,5 +1,11 @@
+import Change from "./pages/change/change";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <Change />
+    </>
+  );
 }
 
 export default App;
