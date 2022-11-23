@@ -4,9 +4,9 @@ function Sale() {
     <>
       <div className="sale">
         <p className="sale_main">Главная / Распродажи </p>
-        <h2>Распродажи</h2>
-        <p className="sale_sales">ранний доступ к распродажам в магазинах</p>
-        <button>Получить адрес в UK</button>
+        <h2 className="sale_title">Распродажи</h2>
+        <p className="sale_info">ранний доступ к распродажам в магазинах</p>
+        <button className="sale_btn">Получить адрес в UK</button>
       </div>
     </>
   );

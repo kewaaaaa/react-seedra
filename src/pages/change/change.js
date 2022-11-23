@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Change = () => {
-  return (
-    <div>change</div>
-  )
-}
+  return <div></div>;
+};
 
-export default Change
+export default Change;
