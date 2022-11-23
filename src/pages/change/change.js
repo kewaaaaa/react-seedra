@@ -1,8 +1,8 @@
 import React from "react";
+import Section2 from "../../component/page1/section2/Section2";
 
- const Change = () => {
-  return (
-    <div>change</div>
-  )
-}
-export default Change
+const Change = () => {
+  return <div></div>;
+};
+
+export default Change;
