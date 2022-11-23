@@ -5,8 +5,8 @@ import Page1Showcase3 from "../../component/page1/page1Showcase3/Page1Showcase3"
 
 /*
   Components:
-  Finished = 2
-  Not finished = +4
+  Finished = 3
+  Not finished = +3
 */
 
 const Homepage = () => {
