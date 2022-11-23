@@ -1,14 +1,7 @@
-import React from 'react'
-import Page2showcae1 from './page2_showcase1/P2sh1'
+import React from "react";
 
 const Change = () => {
   return (
-    <div>
-      <Page2showcae1/>
-
-    </div>
-    
+    <div>change</div>
   )
 }
-
-export default Change
