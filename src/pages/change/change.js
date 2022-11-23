@@ -1,7 +1,8 @@
 import React from "react";
 
-const Change = () => {
+ const Change = () => {
   return (
     <div>change</div>
   )
 }
+export default Change

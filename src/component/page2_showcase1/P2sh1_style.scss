@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: "Gilroy", sans-serif;
 }
 .p2sh1 {
   width: 90%;
@@ -15,21 +16,18 @@
     margin: 0 auto;
   }
   &__dir a {
-    font-family: "Gilroy";
     font-weight: 300;
     font-size: 13px;
     line-height: 14px;
     color: #ffffff;
   }
   &__txt1 {
-    font-family: "Gilroy";
     font-weight: 800;
     font-size: calc(20px + 28 * (100vw / 1400));
     color: #ffffff;
     margin: 30px 0 10px;
   }
   &__txt2 {
-    font-family: "Gilroy";
     font-weight: 700;
     font-size: calc(16px + 8 * (100vw / 1400));
     color: #ffffff;
@@ -42,7 +40,6 @@
     box-shadow: 0px 4px 4px rgba(1, 203, 124, 0.2);
     border-radius: 36px;
     border: none;
-    font-family: "Gilroy";
     font-weight: 700;
     font-size: 17px;
     text-align: center;
