@@ -52,7 +52,12 @@ img {
 
 .card {
   display: flex;
-  gap: 70px;
+  justify-content: space-between;
+  row-gap: 70px;
+  column-gap: 100px;
+  &__body {
+    width: calc(100% - 300px);
+  }
   &__header {
     display: flex;
     align-items: center;
@@ -90,9 +95,53 @@ img {
     display: inline-block;
     width: 300px;
     height: 300px;
+    max-width: 80%;
   }
   &__image {
-    display: block;
-    object-fit: cover;
+    object-fit: contain;
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .easyToBuy {
+    margin-bottom: 100px;
+    padding: 0;
+    width: 95%;
+    margin: auto;
+    .card {
+      flex-direction: column;
+      justify-content: center;
+      &__body {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .easyToBuy {
+    .card {
+      &__number {
+        padding-right: 20px;
+      }
+      &__title {
+        padding-left: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 300px) {
+  .easyToBuy {
+    &__title {
+      h3 {
+        font-size: 30px;
+      }
+    }
+    &__steps {
+      gap: 20px;
+    }
   }
 }
