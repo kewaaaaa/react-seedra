@@ -8,5 +8,6 @@ root.render(
   <React.StrictMode>
     <App />
     <Sale />
+    
   </React.StrictMode>
 );
