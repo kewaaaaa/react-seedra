@@ -6,6 +6,7 @@ function App() {
     <>
        <Delivery/>
        <Change />
+       <Page2showcae1 />
     </>
   );
 }
