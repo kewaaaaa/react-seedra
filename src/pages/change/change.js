@@ -11,9 +11,9 @@ import Tablebottom from "../../component/table-bottom/tablebottom";
 const Change = () => {
   return (
     <div>
+      <Delivery />
       <Page1Showcase3 />
       <Quvondiq />
-      <Delivery />
       <Section2 />
       <Page2showcae1 />
       <Sale />
