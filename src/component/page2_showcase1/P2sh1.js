@@ -12,7 +12,7 @@ export default function Page2showcae1() {
           </div>
           <h1 className="p2sh1__txt1">Научим покупать вВеликобритании!</h1>
           <h2 className="p2sh1__txt2">и экономить до 70%</h2>
-          <button className="p2sh1__btn">Получить адрес в UK</button>
+          <button onClick={()=>{window.open("#", '_blank')}} className="p2sh1__btn">Получить адрес в UK</button>
         </div>
       </div>
     </>
