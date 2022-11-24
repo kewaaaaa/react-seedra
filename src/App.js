@@ -12,8 +12,6 @@ function App() {
       <Delievery_types />
       <ClientSection /> */}
       <Change />
-      <hr />
-      <Page1 />
     </>
   );
 }
