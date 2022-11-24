@@ -97,6 +97,16 @@ html {
   padding-left: 2rem;
 }
 
+@media (max-width: 1082px) {
+  .table .row .wrap .sroki {
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+  .table .row .wrap .delievery-cost {
+    padding: 1rem;
+    text-align: center;
+  }
+}
 @media (max-width: 1024px) {
   .table .row {
     gap: 2rem;
@@ -154,6 +164,9 @@ html {
   }
 }
 @media (max-width: 555px) {
+  .delievery_types h1 {
+    text-align: center;
+  }
   .delievery_types .table .row .title {
     text-align: center;
   }

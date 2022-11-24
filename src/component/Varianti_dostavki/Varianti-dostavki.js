@@ -1,7 +1,7 @@
 import React from "react";
 import "./Varianti-dostavki.scss";
 
-const Delievery_types = () => {
+const DelieveryTypes = () => {
   return (
     <div className="delievery_types">
       <h1>Варианты доставки:</h1>
@@ -91,4 +91,4 @@ const Delievery_types = () => {
   );
 };
 
-export default Delievery_types;
+export default DelieveryTypes;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./tablebottom.scss";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 // import { card1 } from "../../../public/assets/images/page1/page1_card1.png";
 
 const tablebottom = () => {
