@@ -1,5 +1,5 @@
 // import Delivery from "./component/Delivery-section/Delivery";
-import DelieveryTypes from "./component/Varianti_dostavki/Varianti-dostavki";
+// import DelieveryTypes from "./component/Varianti_dostavki/Varianti-dostavki";
 import Change from "./pages/change/change";
 
 // import ClientSection from "./component/ClientsSections/ClientSectionP";
@@ -11,7 +11,6 @@ function App() {
     <>
       {/* <Delivery />
       <ClientSection /> */}
-      <DelieveryTypes />
       <Change />
     </>
   );
