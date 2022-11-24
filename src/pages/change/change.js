@@ -6,6 +6,7 @@ import Sale from "../../component/sale-component/Sale";
 import Quvondiq from "../../component/HomeOtziv/Quvondiq";
 import Page1Showcase3 from "../../component/page1/page1Showcase3/Page1Showcase3";
 import Delievery_types from "../../component/Varianti_dostavki/Varianti-dostavki";
+import Tablebottom from "../../component/table-bottom/tablebottom";
 
 const Change = () => {
   return (
@@ -17,6 +18,7 @@ const Change = () => {
       <Page2showcae1 />
       <Sale />
       <Delievery_types />
+      <Tablebottom />
     </div>
   );
 };
