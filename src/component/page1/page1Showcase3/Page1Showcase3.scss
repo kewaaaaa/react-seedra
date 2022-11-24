@@ -9,11 +9,11 @@
   width: 100%;
   box-sizing: border-box;
   padding: 0px 60px;
-  padding-top: 160px;
+  padding-top: 10px;
   .page1-showcase3 {
     width: 100%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
     padding: 60px 150px 60px 100px;
     background: linear-gradient(79.63deg, #5b52a3 1.08%, #40b8ea 100%);
@@ -66,7 +66,7 @@
 @media (max-width: 1200px) {
   .page1-showcase3-root {
     padding: 0px 60px;
-    padding-top: 160px;
+    padding-top: 10px;
     .page1-showcase3 {
       padding: 40px 50px 40px 70px;
       gap: 50px;
@@ -100,7 +100,7 @@
 @media (max-width: 1000px) {
   .page1-showcase3-root {
     padding: 80px 30px;
-    padding-top: 160px;
+    padding-top: 10px;
     .page1-showcase3 {
       padding: 40px 30px 40px 50px;
       gap: 50px;
@@ -133,7 +133,7 @@
 @media (max-width: 700px) {
   .page1-showcase3-root {
     padding: 0px 30px;
-    padding-top: 160px;
+    padding-top: 10px;
     .page1-showcase3 {
       flex-direction: column;
       padding: 40px 30px 40px 30px;
