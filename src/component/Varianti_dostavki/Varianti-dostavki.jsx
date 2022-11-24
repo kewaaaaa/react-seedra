@@ -1,5 +1,5 @@
 import React from "react";
-import "./varianti-dostavki.css";
+import "./Varianti-dostavki.scss";
 
 const Delievery_types = () => {
   return (
