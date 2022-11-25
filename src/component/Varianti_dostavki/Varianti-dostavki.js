@@ -19,7 +19,7 @@ const DelieveryTypes = () => {
             <div className="delievery-cost">
               <span>Стоимость доставки:</span>
               <p>
-                от £27.00{" "}
+                от £27.00
                 <img src="assets/images/icons-page1/icon-5.info.svg" alt="" />
               </p>
             </div>
@@ -46,7 +46,7 @@ const DelieveryTypes = () => {
             <div className="delievery-cost">
               <span>Стоимость доставки:</span>
               <p>
-                от £27.00{" "}
+                от £27.00
                 <img src="assets/images/icons-page1/icon-5.info.svg" alt="" />
               </p>
             </div>
@@ -73,7 +73,7 @@ const DelieveryTypes = () => {
             <div className="delievery-cost">
               <span>Стоимость доставки:</span>
               <p>
-                от £27.00{" "}
+                от £27.00
                 <img src="assets/images/icons-page1/icon-5.info.svg" alt="" />
               </p>
             </div>
