@@ -1,6 +1,8 @@
+
 import './app.scss'
 
 import Page1 from './pages/page1/page1'
+import Page2 from './pages/page2/page2'
 import Page3 from './pages/page3/page3'
 import {Routes,Route,Link} from 'react-router-dom'
 
@@ -22,13 +24,13 @@ function App() {
           </label>
           <ul>
             <li>
-              <Link to="/">Как покупать</Link>
+              <Link to="/buy">Как покупать</Link>
             </li>
             <li>
-              <Link to="">Распродажи</Link>
+              <Link to="/discount">Распродажи</Link>
             </li>
             <li>
-              <Link to="/discount">Цены</Link>
+              <a href="#">Цены</a>
             </li>
             <li>
               <a href="#">Помощь</a>
@@ -63,6 +65,7 @@ function App() {
      
     <Routes>
       <Route path='/' element={<Page1/>}/>
+      <Route path='/buy' element={<Page2 />}/>
       <Route path='/discount' element={<Page3 />}/>
 
     </Routes>
@@ -198,6 +201,7 @@ function App() {
         </div>
       </footer>
     </div>
+
 
   );
 }

@@ -12,7 +12,8 @@ const Delivery = () => {
                     </h2>
 
                     <p>
-                        Начните экономить до 80% на шопинге. Регистрируйтесь в OkeyPost, чтобы покупать со скидками в UK одежду, обувь, гаджеты известных брендов и безопасно отправлять вещи в Россию.
+                        Начните экономить до 80% на
+                         шопинге. Регистрируйтесь в OkeyPost, чтобы покупать со скидками в UK одежду, обувь, гаджеты известных брендов и безопасно отправлять вещи в Россию.
                     </p>
 
                     <button>
@@ -27,7 +28,10 @@ const Delivery = () => {
                 <h2>
                     Насколько выгодно покупать?
                 </h2>
-                <img className='slide' src="./assets/images/page1/page1-slide.png" alt="" />
+                
+                <div>
+                    <img className='slide' src="./assets/images/page1/page1-slide.png" alt="" />
+                </div>
 
                 <ul>
                     <li>
@@ -64,7 +68,7 @@ const Delivery = () => {
                             Columbia Barlow Pass 550 Turbodown Jacket
                         </h3>
 
-                        <div>
+                        <div className='b'>
                             <img src="./assets/images/page1/page1-russia.png" alt="" />
                             <div>
                                 <p>
@@ -77,8 +81,24 @@ const Delivery = () => {
 
                         </div>
                         <div>
-                            <img src="./assets/images/page1/right.png" alt="" />
+                            <div>
+                                <img className='left' src="./assets/images/page1/left.png" alt="" />
+                                <img src="./assets/images/page1/right.png" alt="" />
+                            </div>
                             <img src="./assets/images/page1/page1_wear3.png" alt="" />
+                        </div>
+
+                        <div className='aa'>
+                            <img src="./assets/images/page1/page1-russia.png" alt="" />
+                            <div>
+                                <p>
+                                    Цена в России
+                                </p>
+                                <h4>
+                                    7891,46₽
+                                </h4>
+                            </div>
+
                         </div>
                     </li>
                 </ul>

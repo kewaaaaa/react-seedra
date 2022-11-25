@@ -73,19 +73,22 @@
 
 .sell {
     margin-top: 150px;
-    .slide{
+
+    .slide {
         width: 100%;
         margin: 50px 0;
     }
+
     ul {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         list-style: none;
         gap: 50px;
-        @media screen and (max-width: 700px){
+
+        @media screen and (max-width: 700px) {
             flex-wrap: wrap;
-            
+
         }
 
         li:nth-child(1) {
@@ -94,46 +97,102 @@
             align-items: center;
             flex-direction: column;
             gap: 100px;
-            div{
+
+            div {
                 max-width: 200px;
             }
-            div:nth-child(3){
+
+            div:nth-child(3) {
                 display: flex;
                 align-items: center;
                 gap: 80px;
-                @media screen and (max-width:700px){
+
+                @media screen and (max-width:700px) {
                     display: block;
+                    img:nth-child(1){
+                        display: block;
+                    }
+                    img:nth-child(2){
+                        display: none;
+                    }
                 }
             }
         }
+
         li:nth-child(2) {
             align-items: center;
-            img{
+
+            img {
                 max-width: 100%;
             }
+
             max-width: 400px;
             text-align: center;
-            span{
+
+            span {
                 color: green;
             }
         }
+
         li:nth-child(3) {
             max-width: 300px;
             display: flex;
             align-items: center;
             flex-direction: column;
             gap: 100px;
-            div{
+
+            div {
                 max-width: 200px;
             }
-            div:nth-child(3){
+
+            div:nth-child(3) {
                 display: flex;
                 align-items: center;
                 gap: 80px;
-                @media screen and (max-width:700px){
+
+                @media screen and (max-width:700px) {
                     display: block;
+                    div {
+                        gap: 30px;
+                        display: flex;
+                        margin-left: -30px;
+                        margin-bottom: 50px;
+                        justify-content: space-between;
+
+                        img {
+                            width: 50px;
+                        }
+
+                        .left {
+                            display: block;
+                        }
+                    }
+
+                    img{
+                        width: auto;
+                        margin-left: 20px;
+                    }
                 }
             }
         }
     }
 }
+
+.left {
+    display: none;
+}
+
+.a{
+    display: none;
+}
+
+.b{
+    display: block;
+    @media screen and (max-width: 700px) {
+        display: none;
+        .aa{
+            display: block;
+        }
+    }
+}
+
