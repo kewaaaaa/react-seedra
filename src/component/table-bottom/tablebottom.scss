@@ -12,8 +12,13 @@
 .tb-img {
   width: 100%;
 }
+.container {
+  margin:auto 10%;
+}
 .row {
   margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
 }
 .tb-h2 {
   font-weight: 700;
@@ -66,4 +71,13 @@
   box-shadow: 0px 4px 4px rgba(1, 203, 124, 0.2);
   border-radius: 36px;
   color: #ffffff;
+}
+
+@media (max-width:767px) {
+  .row {
+    flex-wrap: wrap;
+  }
+  .tb-img {
+    width: 50%;
+  }
 }
