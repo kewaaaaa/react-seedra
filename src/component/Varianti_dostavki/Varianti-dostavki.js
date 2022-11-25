@@ -6,7 +6,7 @@ const DelieveryTypes = () => {
     <div className="delievery_types">
       <h1>Варианты доставки:</h1>
       <div className="table">
-        <div className="row">
+        <div className="roww">
           <div className="title">
             <img src="assets/images/icons-page1/icon-1.pochta.svg" alt="" />
             <p>Почта России</p>
@@ -33,7 +33,7 @@ const DelieveryTypes = () => {
           </div>
         </div>
 
-        <div className="row">
+        <div className="roww">
           <div className="title">
             <img src="assets/images/icons-page1/icon-2.ems.svg" alt="" />
             <p>Почта России</p>
@@ -60,7 +60,7 @@ const DelieveryTypes = () => {
           </div>
         </div>
 
-        <div className="row">
+        <div className="roww">
           <div className="title">
             <img src="assets/images/icons-page1/icon-3.paketi.svg" alt="" />
             <p>Почта России</p>
