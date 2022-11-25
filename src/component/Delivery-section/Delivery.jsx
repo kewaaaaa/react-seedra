@@ -88,7 +88,7 @@ const Delivery = () => {
                             <img src="./assets/images/page1/page1_wear3.png" alt="" />
                         </div>
 
-                        <div className='aa'>
+                        <div className='bottom'>
                             <img src="./assets/images/page1/page1-russia.png" alt="" />
                             <div>
                                 <p>
