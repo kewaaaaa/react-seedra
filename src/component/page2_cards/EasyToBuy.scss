@@ -7,7 +7,7 @@ img {
 }
 .easyToBuy {
   text-align: start;
-  padding: 0 11.25rem;
+  padding: 60px 11.25rem;
   &__title {
     h3 {
       font-family: "Gilroy";
@@ -50,7 +50,7 @@ img {
   }
 }
 
-.card {
+.easyToBuy .card {
   display: flex;
   justify-content: space-between;
   row-gap: 70px;
@@ -107,7 +107,7 @@ img {
 @media (max-width: 1200px) {
   .easyToBuy {
     margin-bottom: 100px;
-    padding: 0;
+    padding: 60px 0;
     width: 95%;
     margin: auto;
     .card {
