@@ -12,13 +12,11 @@ html {
 }
 
 .delievery_types {
-  // margin: 0 auto; //
   margin-top: 8rem;
-  padding: 0 3rem; //
+  padding: 0 3rem; 
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  // width: 1920px; //
   h1 {
     color: $black;
     font-size: 3.6rem;
@@ -54,7 +52,6 @@ html {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        //   background-color: rgba(128, 128, 128, 0.793);
         border-right: 2px solid $gray;
         border-left: 2px solid $gray;
         span {
@@ -125,7 +122,6 @@ html {
   .table {
     .row {
       gap: 2rem;
-
       .wrap {
         .sroki {
           text-align: center;
