@@ -5,7 +5,7 @@ import "./tablebottom.scss";
 
 const tablebottom = () => {
   return (
-    <div className="container">
+    <div className="">
       <h1 className="tb-h1">
         4 простых шага для ваших <br /> покупок в Великобритании{" "}
       </h1>
