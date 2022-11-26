@@ -18,7 +18,7 @@ const Change = () => {
       {/* <Section2 /> */}
       {/* <Page2showcae1 /> */}
       {/* <Sale /> */}
-      {/* <DelieveryTypes /> */}
+      <DelieveryTypes />
       {/* <Tablebottom /> */}
       <Page3/>
     </div>

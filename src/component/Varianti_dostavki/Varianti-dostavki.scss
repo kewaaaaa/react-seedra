@@ -27,7 +27,7 @@ html {
     width: 100%;
     gap: 3rem;
     margin-bottom: 9rem;
-    .row {
+    .roww {
       box-shadow: 0px 0px 70px rgba(138, 138, 138, 0.1);
       padding: 0.5rem 2rem;
       border-radius: 15px;
@@ -104,7 +104,7 @@ html {
 
 @media (max-width: 1082px) {
   .table {
-    .row {
+    .roww {
       .wrap {
         .sroki {
           padding: 1rem 2rem;
@@ -120,7 +120,7 @@ html {
 }
 @media (max-width: 1024px) {
   .table {
-    .row {
+    .roww {
       gap: 2rem;
       .wrap {
         .sroki {
@@ -148,7 +148,7 @@ html {
 @media (max-width: 768px) {
   .delievery_types {
     .table {
-      .row {
+      .roww {
         flex-direction: column;
         .title {
           width: 100%;
@@ -188,7 +188,7 @@ html {
       text-align: center;
     }
     .table {
-      .row {
+      .roww {
         .title {
             text-align: center;
         }
