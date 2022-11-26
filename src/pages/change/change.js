@@ -7,18 +7,20 @@ import Quvondiq from "../../component/HomeOtziv/Quvondiq";
 import Page1Showcase3 from "../../component/page1/page1Showcase3/Page1Showcase3";
 import Tablebottom from "../../component/table-bottom/tablebottom";
 import DelieveryTypes from "../../component/Varianti_dostavki/Varianti-dostavki";
+import Page3 from "../page3/page3";
 
 const Change = () => {
   return (
     <div>
-      <Delivery />
-      <Page1Showcase3 />
-      <Quvondiq />
-      <Section2 />
-      <Page2showcae1 />
-      <Sale />
-      <DelieveryTypes />
-      <Tablebottom />
+      {/* <Delivery /> */}
+      {/* <Page1Showcase3 /> */}
+      {/* <Quvondiq /> */}
+      {/* <Section2 /> */}
+      {/* <Page2showcae1 /> */}
+      {/* <Sale /> */}
+      {/* <DelieveryTypes /> */}
+      {/* <Tablebottom /> */}
+      <Page3/>
     </div>
   );
 };
