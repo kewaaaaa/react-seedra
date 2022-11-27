@@ -39,7 +39,7 @@ function Accordion(props) {
 }
 
 Accordion.defaultProps ={
-  title: "Title",
+  // title: "Title",    kerak joyga json ga title yoziladi
   question: "Question",
   answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos itaque nesciunt tempore, eaque exercitationem consequuntur. Iste impedit eos quia deleniti est vero autem numquam, deserunt quo inventore distinctio temporibus voluptatum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe nisi sequi ipsum distinctio perspiciatis! Consectetur, perferendis sunt! Quaerat, laboriosam? Voluptatibus cumque similique ad aut consequuntur asperiores eaque voluptates delectus doloribus?"
 }
