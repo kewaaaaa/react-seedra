@@ -19,6 +19,7 @@
     display: grid;
     grid-template-columns: 95fr 5fr;
     grid-template-rows: auto;
+    min-height: 10px;
   }
   &__quest {
     font-weight: 700;
@@ -27,15 +28,23 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #ffffff;
+    z-index: 5;
   }
   &__arrow {
     color: #01cd7d;
     background-color: transparent;
     font-size: 32px;
+    background-color: #ffffff;
+    transform-origin: center;
+    z-index: 5;
   }
-  &__ans{
+  &__ans {
     font-size: 18px;
     color: #222222;
+    z-index: 1;
+    transform: translate(0, -20px);
     display: none;
+
   }
 }

@@ -5,7 +5,7 @@ function Quvondiq(props) {
   return (
     <div>
       <div className="container1">
-        <h3>Отзывы и цитаты блогеров:</h3>
+        <h3 className='Otvziv__title'>Отзывы и цитаты блогеров:</h3>
         <div className="cards">
           <div className="card">
             <img className='main' src='assets/images/page1/page1_fb1.png' alt="" />
@@ -102,8 +102,8 @@ function Quvondiq(props) {
         </div>
       </div>
 
-      <div className="showcasecha">
-          <h3>
+      <div className="showcasecha2">
+          <h3 className='showcase__h3'>
             Подпишитеть и будьте в курсе <br /> всех скидок и акций магазинов <br />  Великобритании!
           </h3>
 
