@@ -98,3 +98,138 @@
         
     }
 }
+
+
+
+// ======== Media ======== //
+
+@media (max-width: 1536px){
+    .uslugi-sklada{
+        padding: 0 140px;
+        &__div1{
+            .h2{
+                width: 20%;
+            }
+            .text{
+                width: 78%;
+            }
+            .box{
+                padding: 8px 20px;
+            }
+        }
+        .h2{
+            padding-left: 15px;
+        }
+    }
+}
+@media (max-width: 1280px){
+    
+    .uslugi-sklada{
+        padding: 0 100px;
+        &__div{
+            .box{
+                padding: 8px 20px;
+            }
+            .h2{
+                width: 30%;
+            }
+            .h1{
+                width: 68%;
+            }
+        }
+        &__div1{
+            .h2{
+                width: 20%;
+            }
+            .text{
+                width: 78%;
+            }
+            .box{
+                padding: 8px 20px;
+            }
+        }
+        .h2{
+            padding-left: 10px;
+        }
+    }
+}
+@media (max-width: 1024px){
+    .uslugi-sklada{
+        padding: 0 80px;
+        &__div{
+            gap: 15px;
+            .box{
+                padding: 8px 12px;
+            }
+            
+        }
+        .h2{
+            font-size: 14px;
+        }
+        .h1{font-size: 16px;}
+        .p{font-size: 12px;line-height: 1.2;}
+        .title-h1{font-size: 34px; line-height: 1.2;}
+    }
+}
+@media (max-width: 768px){
+    .uslugi-sklada{
+        padding: 0 60px;
+        &__div{
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
+        &__div1{
+            gap: 15px;
+        }
+        .h2{
+            line-height: 1.2;
+            width: 25% !important;
+        }
+        .h1{
+            line-height: 1.2;
+        }
+        .title-h1{font-size: 30px; line-height: 1.2;}
+
+    }
+}
+@media (max-width: 640px){
+    .uslugi-sklada{
+        padding: 0 40px;
+        .h2{
+            line-height: 1.2;
+            width: 25% !important;
+        }
+        .h1{
+            font-size: 15px;
+        }
+        .p{
+            font-size: 11px;
+        }
+        &__div{
+            .h1{
+                width: 70%;
+            }
+        }
+        &__div1{
+            .text{
+                width: 70%;
+            }
+        }
+
+    }
+}
+@media (max-width: 425px){
+    .uslugi-sklada{
+        padding: 0 20px;
+        .title-h1{font-size: 28px; line-height: 1.2;}
+        .h1{
+            font-size: 14px;
+        }
+        .h2{
+            font-size: 12px;
+        }
+        .p{
+            font-size: 10px;
+        }
+    }
+}

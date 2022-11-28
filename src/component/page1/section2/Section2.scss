@@ -5,13 +5,12 @@
     box-sizing: border-box;
     text-decoration: none;
     color: inherit;
+    font-family: 'Roboto', sans-serif;
 }
 .section2-page1{
     margin: 0 auto;
-    width: 1920px;
-    font-family: 'Roboto', sans-serif;
-    padding: 0px 60px;
-    padding-top: 160px;
+    width: 100%;
+    padding-top: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +20,7 @@
         margin: 0px auto;
         background: linear-gradient(79.63deg, #5B52A3 1.08%, #40B8EA 100%);
         border-radius: 36px;
-        padding: 38px 200px;
+        padding: 38px 150px;
         display: flex;
         align-items: center;
         gap: 75px;
@@ -55,7 +54,7 @@
         flex-direction: column;
         align-items: flex-start;
         gap: 50px;
-        padding: 0px 200px;
+        padding: 0px 150px;
         .text{
             display: flex;
             flex-direction: column;
@@ -149,7 +148,7 @@
         font-weight: 700;
         font-size: 17px;
         line-height: 18px;
-        color: #FFFFFF;
+        color: #FFFFFF !important;
     }
 }
 
