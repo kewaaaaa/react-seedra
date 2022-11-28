@@ -1,13 +1,28 @@
 import React from 'react'
 import Question from '../../component/Question/Question'
 import Sale from '../../component/sale-component/Sale'
+import Cardblog from './cardblog'
+import "./blog.scss"
+
 
 const blog = () => {
   return (
-    <div>
+    <div className='container'>
       <Sale/>
-      
-        {/* card un joy */}
+      {/* bu map cardlar un edi */}
+      {/* <div className='cardlar-blog'>
+          {
+           data.map((item)=>{
+           return <Cardblog text={item.title} urlimg={item.img}/>
+           })
+          }
+      </div> */}
+      {/* bu map cardlar un edi  end */}
+         
+        
+         
+        
+      {/* card un joy */}
       <Question/>
     </div>
   )
