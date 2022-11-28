@@ -7,7 +7,6 @@ import Page2 from './pages/page2/page2'
 import Page3 from './pages/page3/page3'
 import Blog from './pages/blog/blog'
 import {Routes,Route,Link} from 'react-router-dom'
-import Prices from "./component/prices-section-page-4/Price"
 
 
 // import Change from './pages/change/change'
@@ -15,7 +14,7 @@ import Prices from "./component/prices-section-page-4/Price"
 function App() {
   return (
     <div className='container'>
-      {/* <Navbar/>
+      <Navbar/>
      
     <Routes>
       <Route path='/' element={<Page1/>}/>
@@ -24,9 +23,7 @@ function App() {
       <Route path='/blog' element={<Blog />}/>
     </Routes>
     
-      <Footer/> */}
-
-      <Prices/>
+      <Footer/>
     </div>
 
 
