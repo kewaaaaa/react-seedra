@@ -31,7 +31,7 @@ const Navbar = () => {
           <a href="#">Бонусы</a>
         </li>
         <li>
-          <a href="#">Блог</a>
+          <Link to="/blog">Блог</Link>
         </li>
         <li>
           <a href="#">Магазины</a>
