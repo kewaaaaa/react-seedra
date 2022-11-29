@@ -2,35 +2,42 @@
     height: 210px;
     background: linear-gradient(79.63deg, #5B52A3 1.08%, #40B8EA 100%);
     border-radius: 36px;
-       margin-bottom: 100px;
+    margin-bottom: 100px;
     p {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        max-width: 380px;
+        justify-content: flex-start;
+        max-width: 100%;
         font-family: 'Gilroy';
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
         line-height: 14px;
         color: #FFFFFF;
-        padding-left: 250px;
+        padding-left: 100px;
         padding-top: 25px;
 
+        a{
+            margin: 0 10px;
+        }
         a:hover {
             color: rgba(255, 0, 0, 0.8);
         }
-
+        @media screen and (max-width: 1024px) {
+            padding: 20px;
+            font-size: 30px;
+            max-width: 100%;
+        }
         @media screen and (max-width: 800px) {
             padding: 20px;
             font-size: 30px;
-            max-width: 250px;
+            max-width: 100%;
         }
 
         @media screen and (max-width: 400px) {
             padding: 20px;
             font-size: 16px;
-            max-width: 150px;
+            max-width: 100%;
         }
     }
 
@@ -42,8 +49,13 @@
         line-height: 60px;
         color: #FFFFFF;
         padding-top: 40px;
-        padding-left: 240px;
+        padding-left: 100px;
 
+        @media screen and (max-width: 1024px) {
+            padding: 20px;
+            font-size: 30px;
+            line-height: 40px;
+        }
         @media screen and (max-width: 800px) {
             padding: 20px;
             font-size: 30px;

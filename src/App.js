@@ -7,7 +7,7 @@ import Page3 from "./pages/page3/page3";
 import Blog from "./pages/blog/blog";
 import Faqs from "./pages/faq/Faqs";
 import Price from "./pages/price/price";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route , Link} from "react-router-dom";
 
 // import Change from './pages/change/change'
 
