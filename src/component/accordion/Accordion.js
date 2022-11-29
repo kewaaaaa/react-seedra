@@ -33,6 +33,8 @@ function Accordion(props) {
 
   return (
     <>
+    <div className="accor">
+      <div className="container">
       <h1 className={accor}>{props.title}</h1>
       <div className="accor__card">
         <div className="accor__quest">{props.question}</div>
@@ -46,6 +48,8 @@ function Accordion(props) {
         </div>
       </div>
       {console.log("render")}
+        </div>
+      </div>
     </>
   );
 }
