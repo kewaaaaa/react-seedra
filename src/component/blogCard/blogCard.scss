@@ -40,3 +40,17 @@
     }
   }
 }
+
+@media(max-width:1000px){
+  .blog-card-root{
+    width: 49%;
+  }
+
+}
+
+@media(max-width:750px){
+  .blog-card-root{
+    width: 99%;
+  }
+
+}
