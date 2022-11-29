@@ -42,7 +42,7 @@ const Navbar = () => {
             <Link to="/blog">Блог</Link>
           </li>
           <li>
-            <a href="#">Магазины</a>
+            <Link to="/partner">Магазины</Link>
           </li>
         </ul>
         <button>Связаться с нами</button>

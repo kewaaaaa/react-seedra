@@ -8,6 +8,8 @@ import Blog from "./pages/blog/blog";
 import Faqs from "./pages/faq/Faqs";
 import Price from "./pages/price/price";
 import { Routes, Route , Link} from "react-router-dom";
+import Page6 from "./pages/Page6/Page6";
+
 
 // import Change from './pages/change/change'
 
@@ -23,7 +25,10 @@ function App() {
         <Route path="/price" element={<Price />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/faqs" element={<Faqs />} />
+        <Route path='/partner' element={<Page6/>} />
       </Routes>
+
+      
 
       <Footer />
     </div>
