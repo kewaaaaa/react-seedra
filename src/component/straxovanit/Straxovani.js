@@ -75,7 +75,6 @@ const Straxovani = () => {
           })}
         </div>
       </div>
-      <Question />
     </>
   );
 };

@@ -7,6 +7,7 @@ import VariantDostavki from "../../component/Varianti_dostavki/Varianti-dostavki
 import Question from "../../component/Question/Question";
 import Protect from "../../component/Protect-Section/Protect";
 import "./price.scss";
+import Straxovani from "../../component/straxovanit/Straxovani";
 
 const Price = () => {
   return (
@@ -24,7 +25,7 @@ const Price = () => {
         <Uslugi />
       </div>
       <div className="price__section">
-        <Protect />
+        <Straxovani />
       </div>
       <Question />
     </div>
