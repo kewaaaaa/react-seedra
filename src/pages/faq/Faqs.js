@@ -8,7 +8,7 @@ class Faqs extends Component {
     return (
       <>
         <Chasto />
-      <AccorDatas />
+        <AccorDatas />
         <Question />
       </>
     );
