@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
+import { AccordionData } from "./AccordionData";
 import accor from "./accorStyle.scss";
 
 function Accordion(props) {
@@ -49,6 +50,14 @@ function Accordion(props) {
   );
 }
 
+function AccorDatas() {
+  return (
+    <div className="accordions">
+      {AccordionData.map((accItem, index) => (
+        <Accordion {...accItem} />
+      ))}
+    </div>
+  );
+}
 
-
-export default Accordion;
+export default AccorDatas;
