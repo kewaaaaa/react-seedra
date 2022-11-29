@@ -10,10 +10,10 @@ class Faqs extends Component {
     return (
       <div className="faq">
         <div className="faq__section">
-        <Chasto />
+          <Chasto />
         </div>
         <div className="faq__section">
-      <AccorDatas />
+          <AccorDatas />
         </div>
         <Question />
       </div>

@@ -23,6 +23,7 @@ const Price = () => {
       <div className='price__section'>
       <Uslugi />
       </div>
+  
       <div className='price__section'>
       <Protect />
       </div>
