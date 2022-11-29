@@ -1,4 +1,3 @@
-
 import './app.scss'
 import Navbar from './component/navbar/navbar'
 import Footer from './component/footer/footer'
