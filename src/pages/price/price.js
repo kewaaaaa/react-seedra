@@ -13,7 +13,7 @@ import Pokupku from "../../component/pokupki/Pokupku";
 const Price = () => {
   return (
     <div className="price">
-      <div className="price__section">
+      {/* <div className="price__section">
         <PriceSectionPage4 />
       </div>
       <div className="price__section">
@@ -21,7 +21,7 @@ const Price = () => {
       </div>
       <div className="price__section">
         <VariantDostavki />
-      </div>
+      </div> */}
       <div className="price__section">
         <Uslugi />
       </div>
