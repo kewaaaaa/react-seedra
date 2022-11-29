@@ -1,6 +1,5 @@
 import React from "react";
 import Page1Showcase3 from "../page1/page1Showcase3/Page1Showcase3";
-import Question from "../Question/Question";
 import "./style.scss";
 
 const Straxovani = () => {
