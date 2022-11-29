@@ -1,6 +1,5 @@
 import React from 'react'
 import './Delivery.scss'
-// import showcase1 from '../../../public/assets/images/page1/page1_showcase1.png'
 
 const Delivery = () => {
     return (
