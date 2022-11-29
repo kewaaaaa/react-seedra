@@ -10,6 +10,7 @@ import Sales from './pages/sales/Sales'
 import Blog from './pages/blog/Blog'
 
 import { Routes, Route } from "react-router-dom";
+import Title from "./component/TITLE/Title";
 
 
 // import Change from './pages/change/change'
@@ -18,7 +19,6 @@ function App() {
   return (
     <div className="">
       <Navbar />
-      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/how-to-buy" element={<HowToBuy />} />

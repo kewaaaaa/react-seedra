@@ -1,0 +1,43 @@
+.title-unique-h1-black{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.2;
+    color: #1F2428;
+}
+.title-unique-h1-white{
+    
+    &-30{
+        font-family: sans-serif;
+        font-style: normal;
+        line-height: 1.2;
+        color: #FFFFFF;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    &-72{
+        font-family: sans-serif;
+        font-style: normal;
+        line-height: 1.2;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 72px;
+    }
+    &-48{
+        font-family: sans-serif;
+        font-style: normal;
+        line-height: 1.2;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 48px;
+    }
+    &-44{
+        font-family: sans-serif;
+        font-style: normal;
+        line-height: 1.2;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 44px;
+    }
+}
