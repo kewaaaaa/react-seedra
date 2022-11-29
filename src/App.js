@@ -10,7 +10,6 @@ import Sales from './pages/sales/Sales'
 import Blog from './pages/blog/Blog'
 
 import { Routes, Route } from "react-router-dom";
-import Title from "./component/TITLE/Title";
 
 
 // import Change from './pages/change/change'
