@@ -25,7 +25,7 @@ const Price = () => {
       </div>
   
       <div className='price__section'>
-      <Protect />
+      {/* <Protect /> */}
       </div>
       <Question />
     </div>
