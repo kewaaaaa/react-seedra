@@ -1,26 +1,66 @@
 import React from "react";
 import Question from "../../component/Question/Question";
 import Sale from "../../component/sale-component/Sale";
-import Cardblog from "./cardblog";
+import Cardblog from "../../component/blogCard/BlogCard"
 import "./blog.scss";
 
 import BlogCard from "../../component/blogCard/BlogCard";
-
+const steps = [
+  {
+    number: 1,
+    title: "Получаем адрес для покупок в магазинах Великобритании ",
+    text:
+      "Okeypost поможет притвориться американцем и не переплачивать. Для этого нужно зарегистрироваться в нашем сервисе. После регистрации вам станут доступны два адреса в Англии, которые вы сможете указывать при оформлении заказов в интернет-магазинах.",
+    img: "./assets/images/page2/page2_card1.png",
+  },
+  {
+    number: 2,
+    title: "Идём за покупками в онлайн-магазины",
+    text:
+      "Выбираем нужные товары в магазинах Англии. Расплачиваемся, как обычно, в качестве адреса доставки указываем координаты одного из складов Okeypost. Оформить покупки можно самостоятельно или с нашей помощью. Вот список того, что покупать нельзя.",
+    img: "./assets/images/page2/page2_card2.png",
+  },
+  {
+    number: 3,
+    title: "Следим за перемещением посылки до склада",
+    text:
+      "После оформление заказа магазин пришлет трек-номер посылки на ваш e-mail и отправит вещи на наш склад. Через 5-7 дней покупки придут к нам, мы поместим их в специальное хранилище, закрепленное за вашим аккаунтом.",
+    img: "./assets/images/page2/page2_card3.png",
+  },
+  {
+    number: 4,
+    title: "Оплачиваем доставку и покупки отправляются домой",
+    text: `Мы сообщим, когда ваши покупки поступят на склад. Вы сможете заказать что-то еще в других магазинах и отправить все одной посылкой (так выгоднее). До 30 дней покупки будут храниться бесплатно.
+Когда все товары поступили на склад, выбирайте способ доставки, мы надежно все упакуем и отправим вам, сообщив трек-номер.`,
+    img: "./assets/images/page2/page2_card4.png",
+  },
+  {
+    number: 5,
+    title: "Получаем посылку и спешим сделать новый заказ",
+    text:
+      "Примерно через 2 недели посылка приедет к вам домой, в пункт выдачи заказов или на почту. Получаем покупки и радуемся :)",
+    img: "./assets/images/page2/page2_card5.png",
+  },
+  {
+    number: 5,
+    title: "Получаем посылку и спешим сделать новый заказ",
+    text:
+      "Примерно через 2 недели посылка приедет к вам домой, в пункт выдачи заказов или на почту. Получаем покупки и радуемся :)",
+    img: "./assets/images/page2/page2_card5.png",
+  },
+];
 const blog = () => {
   return (
     <div className="container">
       <Sale />
-      {/* bu map cardlar un edi */}
-      {/* <div className='cardlar-blog'>
-          {
-           data.map((item)=>{
-           return <Cardblog text={item.title} urlimg={item.img}/>
-           })
-          }
-      </div> */}
-      {/* bu map cardlar un edi  end */}
+      <div className="cardlar-blog">
+        {
+          steps.map((item)=>{
+            return <BlogCard imgURL={item.img} blogCardText={item.title}/>
+          })
 
-      {/* card un joy */}
+        }
+      </div>
       <Question />
     </div>
   );

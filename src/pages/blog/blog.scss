@@ -8,6 +8,7 @@
 .cardlar-blog{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap ;
+    justify-content: space-between;
     align-items: stretch;
 }
