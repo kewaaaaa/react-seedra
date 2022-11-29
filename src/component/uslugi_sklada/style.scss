@@ -4,7 +4,7 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    padding: 0 200px;
+    padding: 0 0px;
     gap: 20px;
     .title-h1{
         font-family: 'Roboto', sans-serif;
@@ -105,7 +105,7 @@
 
 @media (max-width: 1536px){
     .uslugi-sklada{
-        padding: 0 140px;
+        padding: 0 0px;
         &__div1{
             .h2{
                 width: 20%;
@@ -125,7 +125,7 @@
 @media (max-width: 1280px){
     
     .uslugi-sklada{
-        padding: 0 100px;
+        padding: 0 0px;
         &__div{
             .box{
                 padding: 8px 20px;
@@ -155,7 +155,7 @@
 }
 @media (max-width: 1024px){
     .uslugi-sklada{
-        padding: 0 80px;
+        padding: 0 0px;
         &__div{
             gap: 15px;
             .box{
@@ -173,7 +173,7 @@
 }
 @media (max-width: 768px){
     .uslugi-sklada{
-        padding: 0 60px;
+        padding: 0 0px;
         &__div{
             grid-template-columns: 1fr;
             gap: 15px;
@@ -194,7 +194,7 @@
 }
 @media (max-width: 640px){
     .uslugi-sklada{
-        padding: 0 40px;
+        padding: 0 0px;
         .h2{
             line-height: 1.2;
             width: 25% !important;
@@ -218,9 +218,18 @@
 
     }
 }
+@media(max-width: 490px){
+    .uslugi-sklada{
+        &__div1{
+            .h2{
+                width: 30% !important;
+            }
+        }
+    }
+}
 @media (max-width: 425px){
     .uslugi-sklada{
-        padding: 0 20px;
+        padding: 0 0px;
         .title-h1{font-size: 28px; line-height: 1.2;}
         .h1{
             font-size: 14px;
