@@ -58,7 +58,7 @@ const array2 = [
   },
 ]
 function Uslugi() {
-  return (
+  return ( 
     <div className='uslugi-sklada'>
       <h1 className='title-h1'>Услуги склада</h1>
       <div className="uslugi-sklada__div">
