@@ -8,7 +8,7 @@ import Uslugi from '../../component/uslugi_sklada/Uslugi'
 const Price = () => {
   return (
     <div>
-      {/* <PriceSectionPage4/> */}
+      <PriceSectionPage4/>
       <OnlineCalc/>
       <Uslugi/>
     </div>
