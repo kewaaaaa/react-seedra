@@ -1,0 +1,21 @@
+.price{
+  .price__section{
+    margin-bottom: 200px;
+  }
+}
+
+@media (max-width:1024px){
+  .price{
+    .price__section{
+      margin-bottom: 100px;
+    }
+  }
+}
+
+@media (max-width:640px){
+  .price{
+    .price__section{
+      margin-bottom: 50px;
+    }
+  }
+}
