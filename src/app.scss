@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body{
+  padding: 0 60px;
+}
+
 #check {
   display: none;
 }
@@ -15,11 +19,11 @@ input[type="checkbox"]:checked ~ .navbar {
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
-  padding: 0 60px;
+  padding: 0 260px;
 }
 
 header {
-  padding: 36px 100px;
+  padding: 36px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -86,7 +90,7 @@ header {
 }
 
 .footer {
-  padding: 86px 100px;
+  padding: 86px 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column-gap: 100px;
@@ -164,21 +168,24 @@ header {
     width: 100%;
     max-width: 1536px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 100px;
   }
   header {
-    padding: 36px 80px;
+    padding: 36px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
   .footer {
-    padding: 36px 80px;
+    padding: 36px 0;
     grid-column-gap: 50px;
   }
 }
 
 @media (max-width: 1280px) {
+  body{
+    padding: 0 50px;
+  }
   .container {
     width: 100%;
     max-width: 1280px;
@@ -216,8 +223,12 @@ header {
 
     grid-column-gap: 50px;
   }
+  
 }
 @media (max-width: 1024px) {
+  body{
+    padding: 0 40px;
+  }
   .container {
     width: 100%;
     max-width: 1024px;
@@ -274,6 +285,9 @@ header {
   }
 }
 @media (max-width: 768px) {
+  body{
+    padding: 0 30px;
+  }
   .container {
     width: 100%;
     max-width: 768px;
@@ -283,6 +297,9 @@ header {
 }
 
 @media (max-width: 640px) {
+  body{
+    padding: 0 20px;
+  }
   .container {
     width: 100%;
     max-width: 640px;
@@ -296,6 +313,9 @@ header {
 }
 
 @media (max-width: 425px) {
+  body{
+    padding: 0 10px;
+  }
   .container {
     width: 100%;
     max-width: 100%;

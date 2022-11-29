@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <header>
+    <div className="container">
+       <header >
       <input type="checkbox" id="check" />
       <div className="img">
         <Link to="/">
@@ -24,19 +25,19 @@ const Navbar = () => {
         </label>
         <ul>
           <li>
-            <Link to="/buy">Как покупать</Link>
+            <Link to="/how-to-buy">Как покупать</Link>
           </li>
           <li>
-            <Link to="/discount">Распродажи</Link>
+            <Link to="/sales">Распродажи</Link>
           </li>
           <li>
             <Link to="/price">Цены</Link>
           </li>
           <li>
-            <Link to="/faqs">Помощь</Link>
+            <Link to="/faq">Помощь</Link>
           </li>
           <li>
-            <Link to="/">Бонусы</Link>
+            <Link to="/bonuses">Бонусы</Link>
           </li>
           <li>
             <Link to="/blog">Блог</Link>
@@ -72,6 +73,8 @@ const Navbar = () => {
         </svg>
       </label>
     </header>
+    </div>
+   
   );
 };
 
