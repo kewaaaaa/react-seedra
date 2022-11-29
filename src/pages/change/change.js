@@ -8,6 +8,7 @@ import Page1Showcase3 from "../../component/page1/page1Showcase3/Page1Showcase3"
 import Tablebottom from "../../component/table-bottom/tablebottom";
 import DelieveryTypes from "../../component/Varianti_dostavki/Varianti-dostavki";
 import Page3 from "../page3/page3";
+import OnlineCalc from "../../component/page3_online-calc/OnlineCalc";
 
 const Change = () => {
   return (
@@ -18,9 +19,10 @@ const Change = () => {
       {/* <Section2 /> */}
       {/* <Page2showcae1 /> */}
       {/* <Sale /> */}
-      <DelieveryTypes />
+      {/* <DelieveryTypes /> */}
       {/* <Tablebottom /> */}
-      <Page3/>
+      {/* <Page3/> */}
+      <OnlineCalc />
     </div>
   );
 };

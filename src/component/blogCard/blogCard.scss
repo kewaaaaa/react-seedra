@@ -1,0 +1,41 @@
+.blog-card-root {
+  background: #ffffff;
+  box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  .blog-card-img {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .blog-card-text {
+    width: 100%;
+    padding: 20px;
+    .blog-card-text-p {
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 32px;
+      color: #1f2428;
+    }
+    .blog-card-footer {
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      p {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 14px;
+        color: #222222;
+        opacity: 0.5;
+      }
+    }
+  }
+}
