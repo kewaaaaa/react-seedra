@@ -8,17 +8,17 @@ function Question() {
         <ul>
           <li>
             <a href="#">
-              <i class="fa-brands fa-whatsapp"></i>
+              <i className="fa-brands fa-whatsapp"></i>
             </a>
           </li>
           <li>
             <a href="#">
-              <i class="fa-brands fa-viber"></i>
+              <i className="fa-brands fa-viber"></i>
             </a>
           </li>
           <li>
             <a href="#">
-              <i class="fa-brands fa-whatsapp"></i>
+              <i className="fa-brands fa-whatsapp"></i>
             </a>
           </li>
         </ul>
