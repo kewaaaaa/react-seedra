@@ -1,0 +1,62 @@
+[
+  {
+    "id":1,
+    "imgURL":"./assets/images/page7/card_img1.png",
+    "title":"Интернет-магазин Urban Outfitters в UK: обзор"
+  },
+  {
+    "id":2,
+    "imgURL":"./assets/images/page7/card_img2.png",
+    "title":"Overstock. Брендовые товары по доступным ценам"
+  },
+  {
+    "id":3,
+    "imgURL":"./assets/images/page7/card_img3.png",
+    "title":"Skechers с Amazon. Удобная обувь для всей семьи"
+  },
+  {
+    "id":4,
+    "imgURL":"./assets/images/page7/card_img4.png",
+    "title":"16 лучших подарков с Амазона в 2021 году"
+  },
+  {
+    "id":5,
+    "imgURL":"./assets/images/page7/card_img5.png",
+    "title":"Target — семейный супермаркет с ценами от 300 рублей!"
+  },
+  {
+    "id":6,
+    "imgURL":"./assets/images/page7/card_img6.png",
+    "title":"Английский магазин RIPNDIP. Покупаем самовыражение"
+  },
+  {
+    "id":7,
+    "imgURL":"./assets/images/page7/card_img7.png",
+    "title":"Nautica. Элитные товары из Англии по низким ценам"
+  },
+  {
+    "id":8,
+    "imgURL":"./assets/images/page7/card_img8.png",
+    "title":"Forever 21 - покупаем джинсы за 1 500 рублей"
+  },
+  {
+    "id":9,
+    "imgURL":"./assets/images/page7/card_img9.png",
+    "title":"Как купить кроссовки Balenciaga на 30 000 рублей дешевле?"
+  },
+  {
+    "id":10,
+    "imgURL":"./assets/images/page7/card_img10.png",
+    "title":"Топ-7 самых дорогих сумок Louis Vuitton"
+  },
+  {
+    "id":11,
+    "imgURL":"./assets/images/page7/card_img11.png",
+    "title":"BH Cosmetics Galaxy. Галактика красоты и ухода"
+  },
+  {
+    "id":12,
+    "imgURL":"./assets/images/page7/card_img12.png",
+    "title":"“Вансы”. Крутые кеды, которые не выйдут из моды никогда!"
+  }
+]

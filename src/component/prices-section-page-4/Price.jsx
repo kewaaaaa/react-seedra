@@ -2,6 +2,7 @@ import React from 'react'
 import "./Price.scss"
 import data from "./data.json"
 
+
 function Price() {
     let data1 = data
     console.log(data1);

@@ -30,13 +30,13 @@ const Navbar = () => {
             <Link to="/discount">Распродажи</Link>
           </li>
           <li>
-            <a href="#">Цены</a>
+            <Link to="/price">Цены</Link>
           </li>
           <li>
-            <a href="/faqs">Помощь</a>
+            <Link to="/faqs">Помощь</Link>
           </li>
           <li>
-            <a href="#">Бонусы</a>
+            <Link to="/">Бонусы</Link>
           </li>
           <li>
             <Link to="/blog">Блог</Link>
