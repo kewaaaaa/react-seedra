@@ -13,6 +13,7 @@ import Cards from "./component/cards/Cards";
 import { Routes, Route } from "react-router-dom";
 import Button from "./component/Buttonn/Buttonn";
 import Jacket from "./component/Jacket/Jacket";
+import Description from "./component/TITLE/Description";
 
 // import Change from './pages/change/change'
 
@@ -30,8 +31,8 @@ function App() {
         <Route path="/blog" element={<Blog />} />
       </Routes>
       <Footer /> */}
-
-      <Jacket />
+      <Description description={'aSdakjhsdgvasdasd'} size={20} />
+      {/* <Jacket /> */}
 
       {/* <Button value={'Nimadir'} width={'100%'} /> */}
 

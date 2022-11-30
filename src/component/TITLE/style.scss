@@ -42,12 +42,22 @@
     }
 }
 .description-unique-p-black{
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 36px;
-    color: #1F2428;
+    &-20{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 1.8;
+        color: #1F2428;
+    }
+    &-18{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 2;
+        color: #1F2428;
+    }
 }
 
 @media(max-width:1000px){
