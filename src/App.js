@@ -11,6 +11,7 @@ import Blog from './pages/blog/Blog'
 import Cards from "./component/cards/Cards";
 
 import { Routes, Route } from "react-router-dom";
+import Button from "./component/Buttonn/Buttonn";
 
 
 // import Change from './pages/change/change'
@@ -28,12 +29,14 @@ function App() {
         <Route path="/bonuses" element={<Bonuses />} />
         <Route path="/blog" element={<Blog />} />
       </Routes>
-
       
-
       <Footer />
 
-      {/* <Cards locationPage={"sasa"} BigTitle={"Научим покупать вВеликобритании!"} text="и экономить до 70%" button={"send"}/> */}
+
+
+
+
+
     </div>
   );
 }
