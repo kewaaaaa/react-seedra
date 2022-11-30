@@ -11,6 +11,7 @@ import Blog from './pages/blog/Blog'
 import Cards from "./component/cards/Cards";
 
 import { Routes, Route } from "react-router-dom";
+import Button from "./component/Buttonn/Buttonn";
 
 
 // import Change from './pages/change/change'
@@ -32,8 +33,9 @@ function App() {
       
 
       <Footer /> */}
+      <Button value={'Nimadir'} width={'35rem'} />
 
-      <Cards BigTitle={"Научим покупать вВеликобритании!"} text="и экономить до 70%"/>
+      <Cards imgRight={'./assets/images/page1/page1_showcase1.png'} locationPage={"sasa"} BigTitle={"Научим покупать вВеликобритании!"} text="и экономить до 70%" button={"send"}/>
     </div>
   );
 }

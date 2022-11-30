@@ -12,13 +12,24 @@
     }
 
     img {
-        max-width: 350px;
+        display: block;
+        width: 320px;
+        margin: 20px auto;
     }
 
     .all_texts {
         max-width: 65%;
         text-align: left;
         margin-left: 50px;
+        @media screen and (max-width: 1200px) {
+            margin: 0 auto;
+        }
+        
+        
+        @media screen and (max-width: 800px) {
+            margin: 0 auto;
+        }
+
         h2 {
             font-family: 'Gilroy';
             font-style: normal;
@@ -29,9 +40,10 @@
             margin-bottom: 20px;
             text-align: left;
 
-            @media screen and (max-width: 800px) {
+            @media screen and (max-width: 1200px) {
                 font-size: 23px;
                 line-height: 40px;
+                text-align: center;
             }
         }
 
@@ -44,9 +56,10 @@
             color: #FFFFFF;
             text-align: left;
 
-            @media screen and (max-width: 800px) {
+            @media screen and (max-width: 1200px) {
                 font-size: 23px;
                 line-height: 40px;
+                text-align: center;
             }
         }
 
@@ -60,14 +73,16 @@
             margin-bottom: 20px;
             text-align: left;
 
-            @media screen and (max-width: 800px) {
+            @media screen and (max-width: 1200px) {
                 font-size: 18px;
                 line-height: 40px;
+                text-align: center;
             }
         }
 
         button {
-            width: 250px;
+            display: block;
+            width: 200px;
             height: 50px;
             background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
             box-shadow: 0px 4px 4px rgba(1, 203, 124, 0.2);
@@ -81,9 +96,10 @@
             text-align: center;
             color: #FFFFFF;
 
-            @media screen and (max-width: 800px) {
+            @media screen and (max-width: 1200px) {
                 font-size: 18px;
                 line-height: 40px;
+                margin: 0 auto;
             }
         }
     }
@@ -91,6 +107,7 @@
 }
 
 .Right {
+    margin: 0 auto;
     width: 35%;
     display: flex;
     align-items: center;
@@ -106,7 +123,7 @@
         border-left: none;
         border-right: none;
 
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 1200px) {
             width: 250px;
         }
 
