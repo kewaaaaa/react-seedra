@@ -4,7 +4,7 @@
     padding: 50px 100px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 
     @media screen and (max-width: 800px) {
@@ -16,7 +16,7 @@
     }
 
     .all_texts {
-        max-width: 55%;
+        max-width: 65%;
 
         h2 {
             font-family: 'Gilroy';
