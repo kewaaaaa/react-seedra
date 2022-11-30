@@ -18,7 +18,7 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="">
-      <Navbar />
+      {/* <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/how-to-buy" element={<HowToBuy />} />
@@ -31,9 +31,9 @@ function App() {
 
       
 
-      <Footer />
+      <Footer /> */}
 
-      <Cards/>
+      <Cards BigTitle={"Научим покупать вВеликобритании!"} text="и экономить до 70%"/>
     </div>
   );
 }
