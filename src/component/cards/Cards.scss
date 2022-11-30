@@ -1,0 +1,174 @@
+.Card {
+    background: linear-gradient(79.63deg, #5B52A3 1.08%, #40B8EA 100%);
+    border-radius: 36px;
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: 800px) {
+        padding: 20px 0px;
+    }
+
+    img {
+        max-width: 350px;
+    }
+
+    .all_texts {
+        max-width: 55%;
+
+        h2 {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 55px;
+            line-height: 70px;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+
+            @media screen and (max-width: 800px) {
+                font-size: 23px;
+                line-height: 40px;
+            }
+        }
+
+        h3 {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 40px;
+            color: #FFFFFF;
+
+            @media screen and (max-width: 800px) {
+                font-size: 23px;
+                line-height: 40px;
+            }
+        }
+
+        p {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 42px;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+
+            @media screen and (max-width: 800px) {
+                font-size: 18px;
+                line-height: 40px;
+            }
+        }
+
+        button {
+            width: 250px;
+            height: 50px;
+            background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+            box-shadow: 0px 4px 4px rgba(1, 203, 124, 0.2);
+            border-radius: 36px;
+            border: none;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 18px;
+            text-align: center;
+            color: #FFFFFF;
+
+            @media screen and (max-width: 800px) {
+                font-size: 18px;
+                line-height: 40px;
+            }
+        }
+    }
+
+}
+
+.Right {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    input {
+        background: none;
+        width: 450px;
+        border: 2px solid white;
+        padding: 22px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+
+        @media screen and (max-width: 800px) {
+            width: 250px;
+        }
+
+        &::placeholder {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 16px;
+            color: #FFFFFF;
+        }
+
+    }
+
+    button {
+        width: 250px;
+        height: 50px;
+        background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+        box-shadow: 0px 4px 4px rgba(1, 203, 124, 0.2);
+        border-radius: 36px;
+        border: none;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+.inp {
+    background: none;
+    width: 450px;
+    border: 2px solid white;
+    padding: 22px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    @media screen and (max-width: 800px) {
+        width: 250px;
+    }
+
+    &::placeholder {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+}
+
+.box {
+    gap: 50px;
+    margin-top: 30px;
+    max-width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    p{
+        width: 450px;
+    }
+}
+
+* {
+    font-size: 10px;
+}
