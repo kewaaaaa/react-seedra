@@ -28,10 +28,8 @@ function App() {
         <Route path="/bonuses" element={<Bonuses />} />
         <Route path="/blog" element={<Blog />} />
       </Routes>
-
-      
-
       <Footer />
+
     </div>
   );
 }
