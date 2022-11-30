@@ -8,8 +8,10 @@ import HowToBuy from './pages/How to buy/How-to-buy'
 import Price from './pages/price/Price'
 import Sales from './pages/sales/Sales'
 import Blog from './pages/blog/Blog'
+import Cards from "./component/cards/Cards";
 
 import { Routes, Route } from "react-router-dom";
+import Button from "./component/Buttonn/Buttonn";
 
 
 // import Change from './pages/change/change'
@@ -17,7 +19,7 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="">
-      <Navbar />
+      {/* <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/how-to-buy" element={<HowToBuy />} />
@@ -30,7 +32,10 @@ function App() {
 
       
 
-      <Footer />
+      <Footer /> */}
+      <Button value={'Nimadir'} width={'35rem'} />
+
+      <Cards imgRight={'./assets/images/page1/page1_showcase1.png'} locationPage={"sasa"} BigTitle={"Научим покупать вВеликобритании!"} text="и экономить до 70%" button={"send"}/>
     </div>
   );
 }
