@@ -33,7 +33,7 @@ function App() {
 
       <Footer /> */}
 
-      <Cards locationPage={"sasa"} BigTitle={"Научим покупать вВеликобритании!"} text="и экономить до 70%" button={"send"}/>
+      <Cards imgRight={'./assets/images/page1/page1_showcase1.png'} locationPage={"sasa"} BigTitle={"Научим покупать вВеликобритании!"} text="и экономить до 70%" button={"send"}/>
     </div>
   );
 }
