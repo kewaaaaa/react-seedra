@@ -31,9 +31,9 @@ const Cards = ({ BigTitle, MiniTitle, text, button, buttonRight, imgRight, imgle
                 </div>
                 : <></>}
 
-                {links1 ? <img src={links1} /> : <></>}
-                {links2 ? <img src={links2} /> : <></>}
-                {links3 ? <img src={links3} /> : <></>}
+                {links1 ? <img src={`assets/images/icons-page1/${links1}`} /> : <></>}
+                {links2 ? <img src={`assets/images/icons-page1/${links2}`} /> : <></>}
+                {links3 ? <img src={`assets/images/icons-page1/${links3}`} /> : <></>}
         </div>
     )
 }
