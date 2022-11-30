@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import TableRow from "./TableRow";
 import "./table.scss";
 
@@ -27,7 +27,7 @@ const data = [
 ];
 
 /* 
-    Jadval clsassi "table" bulgan divga uralgan.
+    Jadval classi "table" bulgan divga uralgan.
     Jadvalini har bir qatori <TableRow/> componentidan keladi;
     <TableRow/> props uchun qiymatlarini yuqoridagi "data" uzgaruvchisidan oladi.
 
@@ -35,6 +35,13 @@ const data = [
 */
 
 export default function Table() {
+   const [selected, setSelected] = useState(null);
+
+   const toggle = (index) => {
+      if (selected === index) return setSelected(null);
+      return setSelected(index);
+   };
+
    return (
       <div className="table">
          {data.map(
@@ -49,6 +56,9 @@ export default function Table() {
                   deliveryPrice={deliveryPrice}
                   totalPrice={totalPrice}
                   key={index}
+                  index={index}
+                  selectedState={selected}
+                  toggleFunc={toggle}
                />
             )
          )}

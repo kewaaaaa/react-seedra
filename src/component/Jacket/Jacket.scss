@@ -1,0 +1,88 @@
+$green: #01cd7d;
+$black: #1f2428;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.wrapOfJacket {
+  display: grid;
+  height: 70vh;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding: 3rem 5rem;
+  .rus {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4rem;
+    .row {
+      gap: 1rem;
+      display: flex;
+      background-color: #f2f6fc;
+      border-radius: 16px;
+      padding: 3rem;
+      &__right {
+        span {
+          font-size: 1.8rem;
+        }
+        p {
+          font-weight: 700;
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+  .jacket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.8rem;
+    .jacket-span {
+      font-weight: 300;
+      font-size: 1.8rem;
+    }
+    p.jacket-p {
+      color: $black;
+      font-size: 2rem;
+      font-weight: 700;
+      b {
+        color: $green;
+      }
+    }
+  }
+  .uk {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4rem;
+    h1 {
+      b {
+        color: $green;
+      }
+    }
+    .row {
+      gap: 1rem;
+      display: flex;
+      background-color: #f2f6fc;
+      border-radius: 16px;
+      padding: 3rem;
+      &__right {
+        span {
+          font-size: 1.8rem;
+        }
+        p {
+          font-weight: 700;
+          font-size: 2rem;
+          color: $green;
+        }
+      }
+    }
+  }
+}
