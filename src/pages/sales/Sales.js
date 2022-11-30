@@ -1,10 +1,15 @@
 import React from 'react'
 import Cards from '../../component/cards/Cards';
-import SaleCardData from "./ShowcaseData.json"
+import Title from '../../component/TITLE/Title';
+import SaleCardData from "./ShowcaseData.json";
+import TextData from "../How to buy/TextData.json"
+import "./Sale.scss" 
 
 const Sales = () => {
 
   const[card, card2] = SaleCardData;
+
+  const[title1, title2] = TextData;
 
 
   return (
@@ -12,6 +17,12 @@ const Sales = () => {
       
       <div className="showcase">
         <Cards locationPage={card.link} MiniTitle={card.text} BigTitle={card.largeText} button={card.button}/>
+      </div>
+
+      <div className="container">
+        <div className="title">
+          <Title title={title2.title} color="black" i />
+        </div>
       </div>
 
       <div className="showcase">

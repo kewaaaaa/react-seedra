@@ -4,13 +4,18 @@ import Card from '../../component/Cardlar_1_4_7/cardlar_1_4_7.jsx'
 import "./HowToBuy.scss"
 import showcaseData from "./ShowcaseData.json"
 import CardData from "./CardData.json"
+import Buttonn from "../../component/Buttonn/Buttonn"
+import batton from "./ButtonData.json"
+
 
 const HowTobuy = (props) => {
 
   const[showdata1, showdata2] = showcaseData;
 
   const[card, card2] = CardData;
+  const[btn] = batton;
 
+  console.log(btn.text);
 
   return (
     <div>
@@ -24,10 +29,15 @@ const HowTobuy = (props) => {
         <div className="cards">
           {
             CardData.map((card)=>(
-              <Card text={card.text}/>
+              <Card id={card.index} text={card.text}/>
             ))
           }
         </div>
+        <form>
+          <div className="button">
+            <Buttonn value={btn.text} width={270} />
+          </div>
+        </form>
 
       </div>
 
