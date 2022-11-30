@@ -8,7 +8,6 @@ import HowToBuy from './pages/How to buy/How-to-buy'
 import Price from './pages/price/Price'
 import Sales from './pages/sales/Sales'
 import Blog from './pages/blog/Blog'
-import Cards from "./component/cards/Cards";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -18,7 +17,7 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="">
-      {/* <Navbar />
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/how-to-buy" element={<HowToBuy />} />
@@ -31,9 +30,7 @@ function App() {
 
       
 
-      <Footer /> */}
-
-      <Cards/>
+      <Footer />
     </div>
   );
 }
