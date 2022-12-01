@@ -14,7 +14,7 @@ function Accordion(props) {
     setTimeout(() => {
       answer.current.style.transform = "translate(0, 0)";
     }, 0);
-
+AccordionData
   }
   function minus(target) {
     setState(0);
@@ -55,7 +55,7 @@ function Accordion(props) {
   );
 }
 
-function AccorDatas() {
+function AccorDatas() {y
   return (
     <div className="accordions">
       {AccordionData.map((accItem, index) => (
