@@ -14,6 +14,8 @@ import { Routes, Route } from "react-router-dom";
 import Button from "./component/Buttonn/Buttonn";
 import Jacket from "./component/Jacket/Jacket";
 import Description from "./component/TITLE/Description";
+import SwipeToSlide from "./component/slider/Slider";
+import Slide2 from "./component/slider/Slide2";
 
 // import Change from './pages/change/change'
 
@@ -31,7 +33,9 @@ function App() {
         <Route path="/blog" element={<Blog />} />
       </Routes>
       <Footer /> */}
-      <Description description={'aSdakjhsdgvasdasd'} size={20} />
+      <Description description={"aSdakjhsdgvasdasd"} size={20} />
+      <SwipeToSlide />
+      <Slide2 />
       {/* <Jacket /> */}
 
       {/* <Button value={'Nimadir'} width={'100%'} /> */}
