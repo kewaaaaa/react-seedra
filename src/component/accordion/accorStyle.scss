@@ -45,6 +45,7 @@
     z-index: 1;
     align-self: center;
     background-color: transparent;
+    transform: rotate(180deg);
   }
   &__ans {
     font-size: 18px;
