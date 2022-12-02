@@ -13,6 +13,9 @@ import Cards from "./component/cards/Cards";
 import { Routes, Route } from "react-router-dom";
 import Button from "./component/Buttonn/Buttonn";
 import Jacket from "./component/Jacket/Jacket";
+import Description from "./component/TITLE/Description";
+import SwipeToSlide from "./component/slider/Slider";
+import Slide2 from "./component/slider/Slide2";
 
 // import Change from './pages/change/change'
 
