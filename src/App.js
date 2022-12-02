@@ -17,7 +17,12 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="">
+      <div className="nav">
       <Navbar />
+
+      </div>
+
+      <main>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/how-to-buy" element={<HowToBuy />} />
@@ -27,14 +32,9 @@ function App() {
         <Route path="/bonuses" element={<Bonuses />} />
         <Route path="/blog" element={<Blog />} />
       </Routes>
-<<<<<<< HEAD
+      </main>
       <Footer /> 
 
-
-=======
-      
-      <Footer />
->>>>>>> 7ebe9da12892fb479dcfe52fde9cf1166eb61b8a
     </div>
   );
 }

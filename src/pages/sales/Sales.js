@@ -17,9 +17,6 @@ const Sales = () => {
 
   return (
     <div>
-<<<<<<< HEAD
-      Sales
-=======
       
       <div className="showcase">
         <Cards locationPage={Showcase.link} MiniTitle={Showcase.text} BigTitle={Showcase.largeText} button={Showcase.button}/>
@@ -50,7 +47,7 @@ const Sales = () => {
       <div className="showcase">
         <Cards BigTitle={Showcase2.largeText} links1={Showcase2.icon1} links2={Showcase2.icon2} links3={Showcase2.icon3}/>
       </div>
->>>>>>> 7ebe9da12892fb479dcfe52fde9cf1166eb61b8a
+
       
     </div>
   )

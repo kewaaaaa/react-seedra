@@ -42,7 +42,7 @@ const Cards = ({ BigTitle, MiniTitle, text, button, buttonRight, imgRight, imgle
             </div>
 
 
-            {imgRight ? <img src={imgRight} /> : <></>}
+            {/* {imgRight ? <img src={imgRight} /> : <></>} */}
         
 
             {buttonRight || inpRight ?

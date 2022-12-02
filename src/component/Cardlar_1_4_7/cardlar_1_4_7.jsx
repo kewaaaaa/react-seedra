@@ -12,8 +12,6 @@ const cardlar_1_4_7 = function (props) {
     // widthini pageni sass fayli icida o'lcham bering componentni ozini widthni ozgartirmang!
     // Namuna::  --->> pastda
     //    <Cardlar_1_4_7 boshclass="cardDiv or cardDiv2" btn="none  or  btn"  imgUrl={data.imgyol} title={data.title} text={data.text}/>
-
-    console.log(props);
     return (
         <div className={props.boshclass}>
             <div className={`${props.boshclass}__img`}>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import Slider from "react-slick";
+import Slider from "react-slick";
 import img1 from "./image/slide-1.png";
 import img2 from "./image/slide-2.png";
 import img3 from "./image/slide-3.png";
@@ -47,7 +47,6 @@ export default class SwipeToSlide extends Component {
     };
     return (
       <div>
-        {/* <h2>Swipe To Slide</h2>
         <Slider {...settings}>
           <div className="slide-box">
             <div>
@@ -103,7 +102,7 @@ export default class SwipeToSlide extends Component {
             </div>
             <h1>Аксессуары</h1>
           </div>
-        </Slider> */}
+        </Slider>
       </div>
     );
   }
