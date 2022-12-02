@@ -2,6 +2,8 @@ import React from 'react'
 import './home.scss'
 import Cards from '../../component/cards/Cards'
 import Title from '../../component/TITLE/Title'
+import Description from '../../component/TITLE/Description'
+import Table from '../../component/table/Table'
 
 const Home = () => {
   return (
@@ -16,25 +18,38 @@ const Home = () => {
       </section>
       <section className='banner1'>
         <Cards imgleft={'./assets/images/page1/page1_showcase2.png'}
-        BigTitle="Поручите нашим мастерам шопинга оформить заказы в английских магазинах и освободите время для более важных дел."
-        text="Такой способ покупки также подойдёт, если магазин принимает только английские карты."
-        button={"Попробовать"}
+          BigTitle="Поручите нашим мастерам шопинга оформить заказы в английских магазинах и освободите время для более важных дел."
+          text="Такой способ покупки также подойдёт, если магазин принимает только английские карты."
+          button={"Попробовать"}
         />
       </section>
       <section className='okeyPost container'>
-        <Title 
-        title="OkeyPost удобная и быстрая доставка посылок из Великобритании "
-        color="black"
-        size="44"
+        <Title
+          title="OkeyPost удобная и быстрая доставка посылок из Великобритании "
+          color="black"
+          size="44"
         />
-        {/* <Title 
-        title="Рассчитайте стоимость доставки из Англии к вам домой. Мы получим ваши посылки на складе, при необходимости объединим несколько доставок в одну и отправим их к вам надежно упакованными."
-        color="black"
-        size=""
-        /> */}
+        <Description
+          description="Рассчитайте стоимость доставки из Англии к вам домой. Мы получим ваши посылки на складе, при необходимости объединим несколько доставок в одну и отправим их к вам надежно упакованными."
+          size="20"
+        />
       </section>
       <section className='container variant_dostavki'>
-        <Title 
+        <Title
+          title="Варианты доставки:"
+          color="black"
+          size="36"
+        />
+        <div className='table'>
+          <Table />
+
+        </div>
+      </section>
+      <section className='container forSales'>
+        <Title
+        title="4 простых шага для ваших покупок в Великобритании "
+        color="black"
+        size="44"
         />
       </section>
 
