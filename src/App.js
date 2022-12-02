@@ -16,6 +16,7 @@ import Jacket from "./component/Jacket/Jacket";
 import Description from "./component/TITLE/Description";
 import SwipeToSlide from "./component/slider/Slider";
 import Slide2 from "./component/slider/Slide2";
+import InputsWrap from './component/Input-Select/InputsWrap'
 
 // import Change from './pages/change/change'
 
@@ -36,6 +37,7 @@ function App() {
       <Description description={"aSdakjhsdgvasdasd"} size={20} />
       <SwipeToSlide />
       <Slide2 />
+      <InputsWrap />
       {/* <Jacket /> */}
 
       {/* <Button value={'Nimadir'} width={'100%'} /> */}
