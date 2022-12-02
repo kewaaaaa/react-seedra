@@ -13,18 +13,14 @@ const SalesCards = (SalesCard) => {
           <span className="salesCards__txtColor">{SalesCard.txtColor} </span>
           <span className="salesCards__txt">{SalesCard.span}</span>
           <b className="salesCards__sum"> {SalesCard.sum}</b>
-        </p>
-        <p className="salesCards__text">
           <span className="salesCards__txtColor">{SalesCard.txtColor} </span>
           <span className="salesCards__txt">{SalesCard.span}</span>
           <b className="salesCards__sum"> {SalesCard.sum}</b>
-        </p>
-        <p className="salesCards__text">
           <span className="salesCards__txtColor">{SalesCard.txtColor} </span>
           <span className="salesCards__txt">{SalesCard.span}</span>
           <b className="salesCards__sum"> {SalesCard.sum}</b>
+          {SalesCard.desc}
         </p>
-        <p className="salesCards__desc">{SalesCard.desc}</p>
         <button type="submit" className="salesCards__button">
           {SalesCard.button}
         </button>
