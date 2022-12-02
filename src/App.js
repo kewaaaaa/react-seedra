@@ -11,6 +11,7 @@ import Blog from "./pages/blog/Blog";
 
 import { Routes, Route } from "react-router-dom";
 
+
 // import Change from './pages/change/change'
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
       </Routes>
       <Footer /> 
+
 
     </div>
   );

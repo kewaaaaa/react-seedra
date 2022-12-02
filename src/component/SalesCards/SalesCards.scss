@@ -1,0 +1,69 @@
+.salesCards__card {
+  display: flex;
+  column-gap: 56px;
+  row-gap: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.salesCards__img img {
+  border-radius: 18px;
+}
+.salesCards__title {
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1f2428;
+  margin: 0 0 10px;
+}
+.salesCards__text {
+  font-family: "Gilroy";
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 10px;
+  column-gap: 5px;
+}
+.salesCards__txtColor {
+  color: #01cd7d;
+}
+.salesCards__txt {
+  font-weight: 300;
+  color: #1f2428;
+}
+.salesCards__sum {
+  color: #1f2428;
+}
+.salesCards__desc {
+  font-family: "Gilroy";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1f2428;
+  padding-top: 8px;
+}
+.salesCards__button {
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #01cd7d;
+  background-color: transparent;
+  border: none;
+  padding-top: 40px;
+  cursor: pointer;
+}
+
+// Responsive style start
+// @media (max-width: 675px) {
+//   .salesCards__card {
+//     justify-content: center;
+//     text-align: center;
+//   }
+//   .salesCards__text {
+//     justify-content: center;
+//     flex-wrap: wrap;
+//   }
+// }

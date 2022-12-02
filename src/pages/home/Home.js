@@ -1,10 +1,12 @@
 import React from 'react'
 import './home.scss'
+import cardForProduct from './cardForProduct.json'
 import Cards from '../../component/cards/Cards'
 import Title from '../../component/TITLE/Title'
 import Description from '../../component/TITLE/Description'
 import Table from '../../component/table/Table'
-
+import InputsWrap from '../../component/Input-Select/InputsWrap'
+import Cardlar_1_4_7 from '../../component/Cardlar_1_4_7/cardlar_1_4_7'
 const Home = () => {
   return (
     <div className='home'>
@@ -33,6 +35,8 @@ const Home = () => {
           description="Рассчитайте стоимость доставки из Англии к вам домой. Мы получим ваши посылки на складе, при необходимости объединим несколько доставок в одну и отправим их к вам надежно упакованными."
           size="20"
         />
+        <InputsWrap/>
+
       </section>
       <section className='container variant_dostavki'>
         <Title
@@ -51,6 +55,19 @@ const Home = () => {
         color="black"
         size="44"
         />
+        {
+          cardForProduct.map(item=>{
+           (
+             <Cardlar_1_4_7 key={item.id}
+            boshclass="cardDiv"
+            btn="btn"
+            imgUrl={item.imgUrl}
+            title={item.title}
+            text={item.text}
+            />
+           )
+          })
+        }
       </section>
 
     </div>
