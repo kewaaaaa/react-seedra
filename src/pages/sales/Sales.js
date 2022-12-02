@@ -23,6 +23,16 @@ const Sales = () => {
         <div className="title">
           <Title title={title2.title} color="black" i />
         </div>
+
+        <div className="cards">
+          <div className="card">1</div>
+          <div className="card">2</div>
+          <div className="card">3</div>
+          <div className="card">4</div>
+          <div className="card">5</div>
+          <div className="card">6</div>
+        </div>
+
       </div>
 
       <div className="showcase">
