@@ -1,18 +1,18 @@
 import "./app.scss";
 import Navbar from "./component/navbar/navbar";
 import Footer from "./component/footer/footer";
-import Bonuses from './pages/bonuses/Bonuses'
-import Faq from './pages/faq/Faq'
-import Home from './pages/home/Home'
-import HowToBuy from './pages/How to buy/How-to-buy'
-import Price from './pages/price/Price'
-import Sales from './pages/sales/Sales'
-import Blog from './pages/blog/Blog'
+import Bonuses from "./pages/bonuses/Bonuses";
+import Faq from "./pages/faq/Faq";
+import Home from "./pages/home/Home";
+import HowToBuy from "./pages/How to buy/How-to-buy";
+import Price from "./pages/price/Price";
+import Sales from "./pages/sales/Sales";
+import Blog from "./pages/blog/Blog";
 import Cards from "./component/cards/Cards";
 
 import { Routes, Route } from "react-router-dom";
 import Button from "./component/Buttonn/Buttonn";
-
+import Jacket from "./component/Jacket/Jacket";
 
 // import Change from './pages/change/change'
 
@@ -31,12 +31,6 @@ function App() {
       </Routes>
       
       <Footer />
-
-
-
-
-
-
     </div>
   );
 }
