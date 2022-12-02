@@ -35,11 +35,26 @@ const Cards = ({ BigTitle, MiniTitle, text, button, buttonRight, imgRight, imgle
                     : <></>}
 
                 <div className='links'>
-                <a href="https://web.whatsapp.com/">{links1 ? <img src={links1} /> : <></>}</a>
-                <a href="https://t.me/JavohirAbduxalilov_Front">{links2 ? <img src={links2} /> : <></>}</a>
-                <a href="#">{links3 ? <img src={links3} /> : <></>}</a>
+                <a href="https://web.whatsapp.com/">{links1 ? <img src={links1} alt="icon" /> : <></>}</a>
+                <a href="https://t.me/JavohirAbduxalilov_Front">{links2 ? <img src={links2} alt="icon" /> : <></>}</a>
+                <a href="#">{links3 ? <img src={links3}  alt="icon"/> : <></>}</a>
                 </div>
             </div>
+
+
+            {imgRight ? <img src={imgRight} /> : <></>}
+        
+
+            {buttonRight || inpRight ?
+                <div className='Right'>
+                    <input type="text" name="" id="" placeholder='Введите ваш email'/>
+                    <button>{buttonRight}</button>
+                </div>
+                : <></>}
+
+                {links1 ? <img src={`${links1}`} /> : <></>}
+                {links2 ? <img src={`${links2}`} /> : <></>}
+                {links3 ? <img src={`${links3}`} /> : <></>}
         </div>
     )
 }
