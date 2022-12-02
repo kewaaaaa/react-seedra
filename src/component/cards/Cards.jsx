@@ -35,12 +35,11 @@ const Cards = ({ BigTitle, MiniTitle, text, button, buttonRight, imgRight, imgle
                     : <></>}
 
                 <div className='links'>
-                <a href="https://web.whatsapp.com/">{links1 ? <img src={links1} /> : <></>}</a>
-                <a href="https://t.me/JavohirAbduxalilov_Front">{links2 ? <img src={links2} /> : <></>}</a>
-                <a href="#">{links3 ? <img src={links3} /> : <></>}</a>
+                <a href="https://web.whatsapp.com/">{links1 ? <img src={links1} alt="icon" /> : <></>}</a>
+                <a href="https://t.me/JavohirAbduxalilov_Front">{links2 ? <img src={links2} alt="icon" /> : <></>}</a>
+                <a href="#">{links3 ? <img src={links3}  alt="icon"/> : <></>}</a>
                 </div>
             </div>
-<<<<<<< HEAD
 
 
             {imgRight ? <img src={imgRight} /> : <></>}
@@ -53,11 +52,9 @@ const Cards = ({ BigTitle, MiniTitle, text, button, buttonRight, imgRight, imgle
                 </div>
                 : <></>}
 
-                {links1 ? <img src={`assets/images/icons-page1/${links1}`} /> : <></>}
-                {links2 ? <img src={`assets/images/icons-page1/${links2}`} /> : <></>}
-                {links3 ? <img src={`assets/images/icons-page1/${links3}`} /> : <></>}
-=======
->>>>>>> f734c233f3af5675c18e5b7ad88afe5f711b2120
+                {links1 ? <img src={`${links1}`} /> : <></>}
+                {links2 ? <img src={`${links2}`} /> : <></>}
+                {links3 ? <img src={`${links3}`} /> : <></>}
         </div>
     )
 }
