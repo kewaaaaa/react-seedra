@@ -2,28 +2,10 @@
   display: grid;
   padding: 130px 0;
   gap: 30px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-.blog__inputs__description {
-  padding: 30px 0;
-  max-width: 700px;
-}
-
-.blog__table {
-  margin: 100px 0;
-}
-
-.blog__banner {
-  margin: 100px 0;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 @media (max-width: 1000px) {
-  .blog__cards {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-@media (max-width: 700px) {
   .blog__cards {
     grid-template-columns: 1fr 1fr;
   }

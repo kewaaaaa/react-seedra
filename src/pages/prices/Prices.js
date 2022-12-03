@@ -1,4 +1,4 @@
-import "./blog.style.scss";
+import "./price.style.scss";
 import React from "react";
 import Cardlar_1_4_7 from "../../component/Cardlar_1_4_7/cardlar_1_4_7";
 import Cards from "../../component/cards/Cards";
@@ -7,20 +7,17 @@ import Title from "../../component/TITLE/Title";
 import Description from "../../component/TITLE/Description";
 import Table from "../../component/table/Table";
 import Uslugi from "../../component/uslugi/Uslugi";
-import Straxovanie from "../../component/straxovanie/Straxovanie";
 
-// import img1 from "../../../public/assets/images/page4/page4_card1/png";
-
-const Blog = () => {
+const Prices = () => {
   return (
     <>
-      <div className="blog__showcase">
+      <div className="price__showcase">
         <Cards
           locationPage="Главная  /  Цены"
           BigTitle="Услуги доставки из Великобритании"
         />
       </div>
-      <div className="blog__cards">
+      <div className="price__cards">
         <Cardlar_1_4_7
           boshclass="cardDiv"
           imgUrl="./assets/images/page4/page4_card1.png"
@@ -51,12 +48,12 @@ const Blog = () => {
         />
       </div>
 
-      <div className="blog__inputs">
+      <div className="price__inputs">
         <Title
           title="Онлайн-калькулятор стоимости доставки товара"
           color="black"
         />
-        <div className="blog__inputs__description">
+        <div className="price__inputs__description">
           <Description
             description="Задайте необходимые параметры посылки, и калькулятор рассчитает приблизительную стоимость доставки вашей посылки из Англии."
             size={20}
@@ -65,17 +62,17 @@ const Blog = () => {
         <InputsWrap />
       </div>
 
-      <div className="blog__table">
+      <div className="price__table">
         <Title title="Варианты доставки:" color="black" />
         <Table />
       </div>
 
-      <div className="blog__uslugi">
+      <div className="price__uslugi">
         <Title title="Услуги склада " color="black" />
         <Uslugi />
       </div>
 
-      <div className="blog__banner">
+      <div className="price__banner">
         <Cards
           BigTitle="Услуги доставки из Великобритании"
           imgleft="./assets/images/page4/illustration.png"
@@ -85,12 +82,12 @@ const Blog = () => {
         />
       </div>
 
-      {/* <div className="blog__saver">
+      {/* <div className="price__saver">
         <Title title="Страхование" color="black" />
         <Title title="Дополнительная упаковка" color="black" />
        </div> */}
 
-      <div className="blog__bottom">
+      <div className="price__bottom">
         <Cards
           BigTitle={"Остались вопросы? Спросите нас в соцсетях!"}
           links1={"assets/images/icons-page1/Ватсап.png"}
@@ -102,4 +99,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default Prices;
