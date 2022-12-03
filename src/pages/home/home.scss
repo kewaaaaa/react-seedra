@@ -63,6 +63,10 @@
     }
     .otziv__button{
       margin-top: 40px;
+      .wrap{
+        display: flex;
+      justify-content: start;
+    }
     }
   }
   .content{
@@ -128,6 +132,14 @@
         grid-template-columns: 1fr;
         align-items: center;
         gap: 30px;
+      }
+    }
+    .otziv{
+      .otziv__button{
+        .wrap{
+          display: flex;
+        justify-content: center;
+        }
       }
     }
   }

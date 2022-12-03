@@ -48,7 +48,7 @@ const Cards = ({ BigTitle, MiniTitle, text, button, buttonRight, imgRight, imgle
             {buttonRight || inpRight ?
                 <div className='Right'>
                     <input type="text" name="" id="" placeholder='Введите ваш email'/>
-                    <button>{buttonRight}</button>
+                    {/* <button className='button'>{buttonRight}</button> */}
                 </div>
                 : <></>}
 

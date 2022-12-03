@@ -6,13 +6,15 @@ import './bonuses.scss'
 
 const Bonuses = () => {
   return (
-    <div className="bonuses ">
-        <Cards locationPage="Главная  /  Бонусы и партнёрская программа" MiniTitle="Бонусы и партнёрская программа" text="Платим $3 с каждой отправленной посылки" button={'Начать зарабатывать'} />
+    <div className="bonuses">
+      <Cards locationPage="Главная  /  Бонусы и партнёрская программа" MiniTitle="Бонусы и партнёрская программа" text="Платим $3 с каждой отправленной посылки" button={'Начать зарабатывать'} />
       <section className="container bonusTit">
 
-      <Title  title="Зарабатывать с нами — проще простого:" color="black" size="44" />
+        <Title title="Зарабатывать с нами — проще простого:" color="black" size="44" />
       </section>
-      <ExampleForMap />
+      <section >
+        <ExampleForMap />
+      </section>
 
       <Cards imgleft="assets/images/page6/page6ShowcCard.png" MiniTitle={'Готовы начать зарабатывать вместе с нами?'} text="Присоединяйтесь к партнерской программе Okeypost.com уже сегодня!" button={'Присоедениться'} />
 

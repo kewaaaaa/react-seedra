@@ -18,7 +18,7 @@ import Jacket from '../../component/Jacket/Jacket'
 const Home = () => {
   return (
     <div className='home'>
-      <section className='banner1 slider'>
+      <section className='banner1'>
         <Cards BigTitle="Доставка товаров из Великобритании в Россию" text='Начните экономить до 80% на шопинге. Регистрируйтесь в OkeyPost, чтобы покупать со скидками в UK одежду, обувь, гаджеты известных брендов и безопасно отправлять вещи в Россию.'
           button={'Получить адрес в UK'}
           imgRight={'./assets/images/page1/page1_showcase1.png'} />
