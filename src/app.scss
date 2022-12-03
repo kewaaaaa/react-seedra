@@ -8,6 +8,11 @@ body {
   padding: 0 60px;
 }
 
+.App {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
 #check {
   display: none;
 }
@@ -29,7 +34,7 @@ input[type="checkbox"]:checked ~ .navbar {
   background-color: #fff;
   width: 100%;
 }
-main{
+main {
   margin-top: 123px;
 }
 header {

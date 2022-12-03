@@ -11,30 +11,27 @@ import Blog from "./pages/blog/Blog";
 
 import { Routes, Route } from "react-router-dom";
 
-
 // import Change from './pages/change/change'
 
 function App() {
   return (
-    <div className="">
+    <div className="App">
       <div className="nav">
-      <Navbar />
-
+        <Navbar />
       </div>
 
       <main>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/how-to-buy" element={<HowToBuy />} />
-        <Route path="/sales" element={<Sales />} />
-        <Route path="/price" element={<Price />} />
-        <Route path="/faq" element={<Faq />} />
-        <Route path="/bonuses" element={<Bonuses />} />
-        <Route path="/blog" element={<Blog />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/how-to-buy" element={<HowToBuy />} />
+          <Route path="/sales" element={<Sales />} />
+          <Route path="/price" element={<Price />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/bonuses" element={<Bonuses />} />
+          <Route path="/blog" element={<Blog />} />
+        </Routes>
       </main>
-      <Footer /> 
-
+      <Footer />
     </div>
   );
 }
