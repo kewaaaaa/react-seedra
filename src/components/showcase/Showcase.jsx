@@ -16,7 +16,6 @@ const Showcase = () => {
           clickable: true,
         }}
         modules={[Pagination]}
-        onSlideChange={() => console.log("slide change")}
       >
         {slidesData.map((slide, index) => {
           return (
