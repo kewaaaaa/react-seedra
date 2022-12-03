@@ -11,13 +11,13 @@ import Uslugi from "../../component/uslugi/Uslugi";
 const Prices = () => {
   return (
     <>
-      <div className="price__showcase">
+      <div className="price__showcase  ">
         <Cards
           locationPage="Главная  /  Цены"
           BigTitle="Услуги доставки из Великобритании"
         />
       </div>
-      <div className="price__cards">
+      <div className="price__cards container">
         <Cardlar_1_4_7
           boshclass="cardDiv"
           imgUrl="./assets/images/page4/page4_card1.png"
@@ -48,12 +48,12 @@ const Prices = () => {
         />
       </div>
 
-      <div className="price__inputs">
+      <div className="price__inputs container">
         <Title
           title="Онлайн-калькулятор стоимости доставки товара"
           color="black"
         />
-        <div className="price__inputs__description">
+        <div className="price__inputs__description ">
           <Description
             description="Задайте необходимые параметры посылки, и калькулятор рассчитает приблизительную стоимость доставки вашей посылки из Англии."
             size={20}
@@ -62,23 +62,23 @@ const Prices = () => {
         <InputsWrap />
       </div>
 
-      <div className="price__table">
+      <div className="price__table container">
         <Title title="Варианты доставки:" color="black" />
         <Table />
       </div>
 
-      <div className="price__uslugi">
+      <div className="price__uslugi container">
         <Title title="Услуги склада " color="black" />
         <Uslugi />
       </div>
 
-      <div className="price__banner">
+      <div className="price__banner container">
         <Cards
           BigTitle="Услуги доставки из Великобритании"
           imgleft="./assets/images/page4/illustration.png"
           inpRight={true}
-          buttonRight="Отправить"
-          text="Нажимая на кнопку вы подтверждаете согласие с правилами предоставления услуги и политикой конфиденциальности"
+          button="Отправить"
+          text2="Нажимая на кнопку вы подтверждаете согласие с правилами предоставления услуги и политикой конфиденциальности"
         />
       </div>
 
@@ -87,7 +87,7 @@ const Prices = () => {
         <Title title="Дополнительная упаковка" color="black" />
        </div> */}
 
-      <div className="price__bottom">
+      <div className="price__bottom  ">
         <Cards
           BigTitle={"Остались вопросы? Спросите нас в соцсетях!"}
           links1={"assets/images/icons-page1/Ватсап.png"}
