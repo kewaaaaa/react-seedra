@@ -1,6 +1,5 @@
 import React from 'react'
 
-// 
 
 function Title(props) {
   if(props.title){
