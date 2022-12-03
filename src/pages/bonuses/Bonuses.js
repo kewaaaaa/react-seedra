@@ -16,8 +16,10 @@ const Bonuses = () => {
         <ExampleForMap />
       </section>
 
-      <Cards imgleft="assets/images/page6/page6ShowcCard.png" MiniTitle={'Готовы начать зарабатывать вместе с нами?'} text="Присоединяйтесь к партнерской программе Okeypost.com уже сегодня!" button={'Присоедениться'} />
 
+      <section className="cardLast">
+      <Cards imgleft="assets/images/page6/page6ShowcCard.png" MiniTitle={'Готовы начать зарабатывать вместе с нами?'} text="Присоединяйтесь к партнерской программе Okeypost.com уже сегодня!" button={'Присоедениться'} />
+      </section>
 
     </div>
   )
