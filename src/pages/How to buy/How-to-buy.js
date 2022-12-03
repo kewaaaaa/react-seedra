@@ -41,7 +41,7 @@ const HowTobuy = (props) => {
 
       </div>
 
-      <div className="showcase">
+      <div className="e">
         <Cards BigTitle={showdata1.largeText} links1={showdata2.icon1} links2={showdata2.icon2} links3={showdata2.icon3}/>
       </div>
 
