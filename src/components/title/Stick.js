@@ -1,9 +1,10 @@
 import React from 'react'
 import './style.scss'
 
-function stick() {
+function stick(props) {
+    
   return (
-    <div id='stick'></div>
+    <div id='stick' style={{backgroundColor: props.color}}></div>
   )
 }
 
