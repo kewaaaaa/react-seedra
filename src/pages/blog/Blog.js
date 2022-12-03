@@ -1,13 +1,105 @@
-import React from 'react'
-import Cardlar_1_4_7 from '../../component/Cardlar_1_4_7/cardlar_1_4_7'
+import "./blog.style.scss";
+import React from "react";
+import Cardlar_1_4_7 from "../../component/Cardlar_1_4_7/cardlar_1_4_7";
+import Cards from "../../component/cards/Cards";
+import InputsWrap from "../../component/Input-Select/InputsWrap";
+import Title from "../../component/TITLE/Title";
+import Description from "../../component/TITLE/Description";
+import Table from "../../component/table/Table";
+import Uslugi from "../../component/uslugi/Uslugi";
+import Straxovanie from "../../component/straxovanie/Straxovanie";
+
+// import img1 from "../../../public/assets/images/page4/page4_card1/png";
+
 const Blog = () => {
   return (
-    <div>
-      Blog
-    
-    </div>
-   
-  )
-}
+    <>
+      <div className="blog__showcase">
+        <Cards
+          locationPage="Главная  /  Цены"
+          BigTitle="Услуги доставки из Великобритании"
+        />
+      </div>
+      <div className="blog__cards">
+        <Cardlar_1_4_7
+          boshclass="cardDiv"
+          imgUrl="./assets/images/page4/page4_card1.png"
+          title="Ваш личный адрес для покупок"
+          text="на нашем современном автоматизированном складе в безналоговом Делавэре"
+          btn="btn"
+        />
+        <Cardlar_1_4_7
+          boshclass="cardDiv"
+          imgUrl={"./assets/images/page4/page4_card2.png"}
+          title="Ваш личный адрес для покупок"
+          text="на нашем современном автоматизированном складе в безналоговом Делавэре"
+          btn="btn"
+        />
+        <Cardlar_1_4_7
+          boshclass="cardDiv"
+          imgUrl={"./assets/images/page4/page4_card3.png"}
+          title="Ваш личный адрес для покупок"
+          text="на нашем современном автоматизированном складе в безналоговом Делавэре"
+          btn="btn"
+        />
+        <Cardlar_1_4_7
+          boshclass="cardDiv"
+          imgUrl={"./assets/images/page4/page4_card4.png"}
+          title="Ваш личный адрес для покупок"
+          text="на нашем современном автоматизированном складе в безналоговом Делавэре"
+          btn="btn"
+        />
+      </div>
 
-export default Blog
+      <div className="blog__inputs">
+        <Title
+          title="Онлайн-калькулятор стоимости доставки товара"
+          color="black"
+        />
+        <div className="blog__inputs__description">
+          <Description
+            description="Задайте необходимые параметры посылки, и калькулятор рассчитает приблизительную стоимость доставки вашей посылки из Англии."
+            size={20}
+          />
+        </div>
+        <InputsWrap />
+      </div>
+
+      <div className="blog__table">
+        <Title title="Варианты доставки:" color="black" />
+        <Table />
+      </div>
+
+      <div className="blog__uslugi">
+        <Title title="Услуги склада " color="black" />
+        <Uslugi />
+      </div>
+
+      <div className="blog__banner">
+        <Cards
+          BigTitle="Услуги доставки из Великобритании"
+          imgleft="./assets/images/page4/illustration.png"
+          inpRight={true}
+          buttonRight="Отправить"
+          text="Нажимая на кнопку вы подтверждаете согласие с правилами предоставления услуги и политикой конфиденциальности"
+        />
+      </div>
+
+      {/* <div className="blog__saver">
+        <Title title="Страхование" color="black" />
+        <Title title="Дополнительная упаковка" color="black" />
+       </div> */}
+
+      <div className="blog__bottom">
+        <Cards
+          BigTitle={"Остались вопросы? Спросите нас в соцсетях!"}
+          links1={"assets/images/icons-page1/Ватсап.png"}
+          links2={"assets/images/icons-page1/Вайбер.png"}
+          links3={"assets/images/icons-page1/Чат.png"}
+        />
+      </div>
+    </>
+  );
+};
+
+export default Blog;
