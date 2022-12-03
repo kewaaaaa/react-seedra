@@ -1,8 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.bonusTit{
-    margin: 100px 0 40px;
+.bonusTit {
+  margin: 100px 0 40px;
+}
+.cardLast {
+  margin-top: calc(90px + 90 * (100vw / 1400));
 }
