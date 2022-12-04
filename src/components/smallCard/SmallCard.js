@@ -8,12 +8,12 @@ import Stick from "../title/Stick";
 
         1. background ishlatilgan js faylda background rasmlar import qilingan bo'lishi kerak
         e.g: import rasm from "assets/rasmlar/rasm.png";
-            <SmallCard background=rasm />
+            <SmallCard background={rasm} />
 
         2. text ga carddagi text kiritiladi
     
     SmallCard faqat grid yoki flexning ichida ishlatilganligi uchun widthni 100% qildim. 
-    
+
 */
 
 function SmallCard(props) {
