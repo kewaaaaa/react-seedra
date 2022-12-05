@@ -4,7 +4,7 @@
 }
 
 table {
-  font-size: 20px;
+  font-size: 16px;
   border-collapse: collapse;
   border: none;
   width: 100%;
@@ -19,25 +19,29 @@ table {
         text-align: center;
         color: #ffc600;
         padding: 5px 20px;
+        width: calc(50% / 3);
         &:nth-child(1) {
-          min-width: 200px;
+          width: 50%;
         }
-        &:nth-child(n + 1) {
-          max-width: 220px;
-        }
+
       }
     }
   }
   tbody {
     tr {
-      white-space: nowrap;
+      white-space: wrap;
       td {
         text-align: center;
         color: #002b49;
+        width: calc(50% / 3);
         padding: 5px 20px;
+        &:nth-child(1) {
+          width: 50%;
+          text-align: start;
+        }
       }
       &:nth-child(2n) {
-        background-color: #f4f4f8;
+        background-color: #bababe;
       }
     }
   }
