@@ -21,13 +21,13 @@ const Navbar = () => {
               <Link>Programs</Link>
             </li>
             <li className=''>
-              <Link>F.A.Q</Link>
+              <Link to='/faq'>F.A.Q</Link>
             </li>
             <li className=''>
               <Link>Contact</Link>
             </li>
             <li className=''>
-              <Link>Apply</Link>
+              <Link to='/apply'>Apply</Link>
             </li>
           </ul>
           <div className={style.links}>

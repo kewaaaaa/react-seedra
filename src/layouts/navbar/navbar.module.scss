@@ -2,16 +2,10 @@ input[type="checkbox"]:checked ~ .modal {
   right: 0;
 }
 
-input[type="checkbox"]:checked ~ .navbar {
-nav{
-
-  .burger {
+input[type="checkbox"]:checked ~ .navbar{
+  .burger{
     display: none;
   }
-  .close {
-    display: block;
-  }
-}
 }
 
 .navbar {
