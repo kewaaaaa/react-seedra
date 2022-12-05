@@ -13,7 +13,7 @@
     align-items: center;
     gap: 10px;
 
-    label{
+    .label{
         width: 140px;
         text-align: end;
         font-style: normal;
@@ -60,6 +60,10 @@
 
 .borderRadius{
     border-radius: 20px;
+}
+
+.none{
+    display: none;
 }
 
 .btn{
