@@ -8,9 +8,12 @@ const Navbar = () => {
   return (
     <>
       <input type="checkbox" id='check' />
-      <div className={` ${style.navbar}`}>
+      <div className="container">
+      <div className={`${style.navbar}`}>
         <div className={style.logo}>
-          <img src="./assets/logo/Logo.png" alt="" />
+        <Link to='/'>
+        <img src="./assets/logo/Logo.png" alt="" />
+        </Link>
         </div>
         <nav >
           <ul>
@@ -44,6 +47,7 @@ const Navbar = () => {
             </label>
           </div>
         </nav>
+      </div>
       </div>
 
       <div className={style.modal}>

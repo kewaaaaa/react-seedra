@@ -15,7 +15,9 @@
 input[type="checkbox"]:checked ~ .navbar {
   right: 0;
 }
-
+header{
+  background-color: #002B49;
+}
 .container {
   width: 100%;
   max-width: 1920px;

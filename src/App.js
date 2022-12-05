@@ -1,18 +1,23 @@
 import "./app.scss";
 import Navbar from './layouts/navbar/Navbar'
 import Footer from "./layouts/footer/Footer";
-
+import Faq from './pages/faq/Faq'
 import { Routes, Route } from "react-router-dom";
 
 
 function App() {
   return (
     <div className="">
-      <header className="container">
+      <header>
         <Navbar />
       </header>
 
-      <main></main>
+      <main>
+        <Routes>
+          <Route path="/" />
+          <Route path="/faq" element={<Faq/>} />
+        </Routes>
+      </main>
       <Footer />
     </div>
   );
