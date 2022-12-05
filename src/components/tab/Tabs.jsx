@@ -25,14 +25,27 @@ function Tabs(props) {
       content3.current.className =
       content4.current.className =
         styles.tabs__content;
-    if (param == 1)
+    tab1.current.className =
+      tab2.current.className =
+      tab3.current.className =
+      tab4.current.className =
+        styles.tabs__tab;
+    if (param == 1) {
       content1.current.className = `${styles.active} ` + styles.tabs__content;
-    if (param == 2)
+      tab1.current.className = `${styles.activeTab} ` + styles.tabs__tab;
+    }
+    if (param == 2) {
       content2.current.className = `${styles.active} ` + styles.tabs__content;
-    if (param == 3)
+      tab2.current.className = `${styles.activeTab} ` + styles.tabs__tab;
+    }
+    if (param == 3) {
       content3.current.className = `${styles.active} ` + styles.tabs__content;
-    if (param == 4)
+      tab3.current.className = `${styles.activeTab} ` + styles.tabs__tab;
+    }
+    if (param == 4) {
       content4.current.className = `${styles.active} ` + styles.tabs__content;
+      tab4.current.className = `${styles.activeTab} ` + styles.tabs__tab;
+    }
   }
 
   return (
@@ -106,11 +119,7 @@ function Tabs(props) {
           <span></span>
         )}
 
-        {props.type2 ? (
-          <div>Table1</div>
-        ) : (
-          <span></span>
-        )}
+        {props.type2 ? <div>Table1</div> : <span></span>}
         <div className={styles.type2}></div>
       </div>
       <div ref={content2} className={styles.tabs__content}>
@@ -133,25 +142,13 @@ function Tabs(props) {
           <span></span>
         )}
 
-        {props.type2 ? (
-          <div>Table2</div>
-        ) : (
-          <span></span>
-        )}
+        {props.type2 ? <div>Table2</div> : <span></span>}
       </div>
       <div ref={content3} className={styles.tabs__content}>
-      {props.type2 ? (
-          <div>Table3</div>
-        ) : (
-          <span></span>
-        )}
+        {props.type2 ? <div>Table3</div> : <span></span>}
       </div>
       <div ref={content4} className={styles.tabs__content}>
-      {props.type2 ? (
-          <div>Table4</div>
-        ) : (
-          <span></span>
-        )}
+        {props.type2 ? <div>Table4</div> : <span></span>}
       </div>
       {console.log("ren")}
     </div>
