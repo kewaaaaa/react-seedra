@@ -15,6 +15,7 @@
     border-bottom: 1px solid #ffc600;
   }
   &__tab {
+    cursor: pointer;
     background: #002b49;
     padding: 10px 20px;
     font-weight: 400;
@@ -67,15 +68,14 @@
     color: #59595c;
   }
 }
-.career{
+.career {
   margin: 0 auto;
   width: 1150px;
   // display: flex-box;
   // flex-direction: column;
   // overflow-x: scroll;
-
 }
-.block{
+.block {
   display: block;
   width: 100%;
 }
