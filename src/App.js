@@ -45,7 +45,7 @@ function App() {
           repellat inventore temporibus. Et.
         </p>
       </MainLayout>
-      <Tabs type2={true} {...data2}/>
+      <Tabs {...data2}/>
     </div>
   );
 }
