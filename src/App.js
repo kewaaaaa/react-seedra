@@ -1,7 +1,8 @@
 import "./app.scss";
 import { Routes, Route } from "react-router-dom";
 import MainLayout from "./layouts/about/Main.layout";
-
+import Tabs from "./components/tab/Tabs";
+import data2 from './components/tab/tabsType2.json'
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           repellat inventore temporibus. Et.
         </p>
       </MainLayout>
+      <Tabs type2={true} {...data2}/>
     </div>
   );
 }
