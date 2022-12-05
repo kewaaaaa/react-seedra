@@ -1,4 +1,6 @@
 import React from 'react'
+import AmityInputs from '../../components/InputsButtons/AmityInputs'
+
 import style from './navbar.module.scss'
 import { Link } from 'react-router-dom'
 
@@ -48,7 +50,8 @@ const Navbar = () => {
         <div className="container">
           <div className={`${style.sidebar} `} >
             <div className={style.search}>
-              <input type="text" />
+              <AmityInputs
+               placeholder={'Search...'} type="text" borderRadius="100%" bg="white"/>
             </div>
             <div className={style.responsive_navbar}>
               <ul>
