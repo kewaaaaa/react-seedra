@@ -9,7 +9,7 @@ const Navbar = () => {
     <>
       <input type="checkbox" id='check' />
       <div className={` ${style.navbar}`}>
-        <div className={''}>
+        <div className={style.logo}>
           <img src="./assets/logo/Logo.png" alt="" />
         </div>
         <nav >
@@ -51,7 +51,7 @@ const Navbar = () => {
           <div className={`${style.sidebar} `} >
             <div className={style.search}>
               <AmityInputs
-               placeholder={'Search...'} type="text" borderRadius="100%" bg="white"/>
+               placeholder={'Search...'} type="text" borderRadius="100%" bg="white" none={'none'}/>
             </div>
             <div className={style.responsive_navbar}>
               <ul>

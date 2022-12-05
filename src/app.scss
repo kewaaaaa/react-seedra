@@ -23,6 +23,10 @@ input[type="checkbox"]:checked ~ .navbar {
   padding: 0 260px;
 }
 
+main{
+  min-height: calc(100vh - 180px - 455px);
+}
+
 // ===================== Media ======================================
 
 @media (max-width: 1536px) {
