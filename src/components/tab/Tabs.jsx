@@ -25,11 +25,8 @@ function Tabs(props) {
       content3.current.className =
       content4.current.className =
         styles.tabs__content;
-    tab1.current.className =
-      tab2.current.className =
-      tab3.current.className =
-      tab4.current.className =
-        styles.tabs__tab;
+    tab1.current.className = tab2.current.className = styles.tabs__tab;
+    props.button3 && props.button4 ? (tab1.current.className = tab2.current.className = styles.tabs__tab) : console.log("");
     if (param == 1) {
       content1.current.className = `${styles.active} ` + styles.tabs__content;
       tab1.current.className = `${styles.activeTab} ` + styles.tabs__tab;
@@ -37,6 +34,7 @@ function Tabs(props) {
     if (param == 2) {
       content2.current.className = `${styles.active} ` + styles.tabs__content;
       tab2.current.className = `${styles.activeTab} ` + styles.tabs__tab;
+      console.log("555");
     }
     if (param == 3) {
       content3.current.className = `${styles.active} ` + styles.tabs__content;
@@ -53,7 +51,7 @@ function Tabs(props) {
       <div className={styles.tabs__nav}>
         {props.button1 ? (
           <button
-            className={styles.tabs__tab}
+            className={`${styles.activeTab} ` + styles.tabs__tab}
             ref={tab1}
             onClick={() => click(1)}
           >
@@ -150,7 +148,6 @@ function Tabs(props) {
       <div ref={content4} className={styles.tabs__content}>
         {props.type2 ? <div>Table4</div> : <span></span>}
       </div>
-      {console.log("ren")}
     </div>
   );
 }

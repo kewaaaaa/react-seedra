@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <MainLayout>
-      <Tabs {...data2}/>
+      <Tabs {...data1}/>
 
       </MainLayout>
     </div>
