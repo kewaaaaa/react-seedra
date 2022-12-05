@@ -1,11 +1,15 @@
-import React, { useEffect, useState, useRef } from "react";
-import Accordion from "../accardion/Accordion";
-
+import React, { useState, useRef } from "react";
 import styles from "./tabs.module.scss";
-import cn from "classnames";
-import cnBind from "classnames/bind";
 
-const cx = cnBind(styles);
+
+//  chaqirganda tabsType1 || tabsType2 dan data chaqarib olib propsda spread qilib yubrish kerak
+
+//  exp:
+//     import data1 from './tabsType1.json'
+//     import Tabs form "./"
+//     return(
+//       <Tabs {...data1} />
+//     )
 
 function Tabs(props) {
   const [state, setState] = useState(0);
