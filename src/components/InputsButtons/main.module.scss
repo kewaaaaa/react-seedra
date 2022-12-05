@@ -88,6 +88,34 @@
     border-color: #FFC600 !important;
 }
 
+.textarea{
+    width: 100%;
+    height: 218px;
+    padding: 15px;
+    background: #F4F4F8;
+    border: none;
+    outline: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #A7A8A9;
+    border: 1px solid transparent;
+
+    &::placeholder{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        color: #A7A8A9;
+    }
+}
+
+
 .borderRadius{
     border-radius: 20px;
 }
