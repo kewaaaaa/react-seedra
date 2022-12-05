@@ -19,7 +19,7 @@ function Title(props) {
         <h1 id='titleUp'>::</h1>
         <a href='/'><h1 id='titleUpSolid'>{starter[1]}</h1></a>
         <h1 id='titleUp'>::</h1>
-        <a href='/'><h1 id='titleUpGray'>{starter[2]}</h1></a>
+        <a href='/'><h1 id='titleUpGray'>{starter[2]} {starter[3]}</h1></a>
 
       </div>
     )
