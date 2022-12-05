@@ -1,8 +1,9 @@
 import React, { useState, useRef } from "react";
 import styles from "./tabs.module.scss";
 
-
-//  chaqirganda tabsType1 || tabsType2 dan data chaqarib olib propsda spread qilib yubrish kerak
+//  1ta props oladi
+ 
+// chaqirganda tabsType1 || tabsType2 dan data chaqarib olib propsda spread qilib yubrish kerak
 
 //  exp:
 //     import data1 from './tabsType1.json'
