@@ -3,11 +3,6 @@ import './style.scss'
 
 function Title(props) {
 
-  const titleUpHref = () => {
-    const starter = props.titleUpLink.split(' ')
-    console.log(starter);
-    starter.map((data)=> <a href='/'><h1 id='titleUp'>{data}</h1>{console.log(data)}</a>)
-  }
 
   if(props.title){
     return <h1 id='title'>{props.title}</h1>
@@ -28,9 +23,7 @@ function Title(props) {
 
       </div>
     )
-    // console.log(starter);
-    // return starter.map((data)=> <a href='/'><h1 id='titleUp'>{data}</h1>{console.log(data)}</a>)
   }
 }
 
-export default Title
+export default Title;
