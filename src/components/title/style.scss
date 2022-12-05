@@ -36,22 +36,24 @@
 
 .carousel{
     overflow: hidden;
-    .inner{
-        white-space: nowrap;
-        transition: transform 0.1s;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .carousel-item{
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        height: 130px;
-        color: #fff;
-    }
+    
 }
-
+.inner{
+    white-space: nowrap;
+    transition: transform 0.1s;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+}
+.carousel-item{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    // background-color: green;
+    // color: #fff;
+    width: 300px;
+}
 @media(max-width: 1024px){
     #stick{
         width: 95px;
