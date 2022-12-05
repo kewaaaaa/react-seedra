@@ -16,6 +16,10 @@ input[type="checkbox"]:checked ~ .navbar {
   right: 0;
 }
 header{
+  position: fixed;top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99999;
   background-color: #002B49;
 }
 .container {
@@ -26,7 +30,7 @@ header{
 }
 
 main{
-  min-height: calc(100vh - 180px - 455px);
+  min-height: calc(100vh - 455px);
 }
 
 // ===================== Media ======================================

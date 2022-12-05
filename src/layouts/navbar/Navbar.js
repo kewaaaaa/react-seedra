@@ -2,32 +2,35 @@ import React from 'react'
 import AmityInputs from '../../components/InputsButtons/AmityInputs'
 
 import style from './navbar.module.scss'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
+  const isActives=({isActive})=>{
+    return isActive ? style.active : ""
+  }
   return (
     <>
-      <input type="checkbox" id='check' />
       <div className="container">
+      <input type="checkbox" id='check' />
       <div className={`${style.navbar}`}>
         <div className={style.logo}>
-        <Link to='/'>
+        <NavLink to='/'>
         <img src="./assets/logo/Logo.png" alt="" />
-        </Link>
+        </NavLink>
         </div>
         <nav >
           <ul>
             <li className=''>
-              <Link>Programs</Link>
+              <NavLink  >Programs</NavLink>
             </li>
             <li className=''>
-              <Link to='/faq'>F.A.Q</Link>
+              <NavLink className={isActives} to='/faq'>F.A.Q</NavLink>
             </li>
             <li className=''>
-              <Link>Contact</Link>
+              <NavLink >Contact</NavLink>
             </li>
             <li className=''>
-              <Link to='/apply'>Apply</Link>
+              <NavLink className={isActives} to='/apply'>Apply</NavLink>
             </li>
           </ul>
           <div className={style.links}>
@@ -48,8 +51,6 @@ const Navbar = () => {
           </div>
         </nav>
       </div>
-      </div>
-
       <div className={style.modal}>
         <div className="container">
           <div className={`${style.sidebar} `} >
@@ -60,16 +61,16 @@ const Navbar = () => {
             <div className={style.responsive_navbar}>
               <ul>
                 <li className=''>
-                  <Link>Programs</Link>
+                  <NavLink>Programs</NavLink>
                 </li>
                 <li className=''>
-                  <Link>F.A.Q</Link>
+                  <NavLink>F.A.Q</NavLink>
                 </li>
                 <li className=''>
-                  <Link>Contact</Link>
+                  <NavLink>Contact</NavLink>
                 </li>
                 <li className=''>
-                  <Link>Apply</Link>
+                  <NavLink>Apply</NavLink>
                 </li>
               </ul>
             </div>
@@ -78,59 +79,59 @@ const Navbar = () => {
                 <h1 >About Us</h1>
                 <ul>
                   <li>
-                    <Link>
+                    <NavLink>
                       Amity’s Welcome <svg width="63" height="17" viewBox="0 0 63 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.5H54.364" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3" />
                         <path d="M54.3638 2.13599L60.7277 8.49995L54.3638 14.8639" stroke="white" stroke-width="2.5" stroke-linecap="round" />
                       </svg>
 
-                    </Link>
+                    </NavLink>
 
                   </li>
                   <li>
-                    <Link>
+                    <NavLink>
                       Founders <svg width="63" height="17" viewBox="0 0 63 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.5H54.364" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3" />
                         <path d="M54.3638 2.13599L60.7277 8.49995L54.3638 14.8639" stroke="white" stroke-width="2.5" stroke-linecap="round" />
                       </svg>
 
-                    </Link>
+                    </NavLink>
                   </li>
                   <li>
-                    <Link>
+                    <NavLink>
                       Our Campus <svg width="63" height="17" viewBox="0 0 63 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.5H54.364" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3" />
                         <path d="M54.3638 2.13599L60.7277 8.49995L54.3638 14.8639" stroke="white" stroke-width="2.5" stroke-linecap="round" />
                       </svg>
 
-                    </Link>
+                    </NavLink>
                   </li>
                   <li>
-                    <Link>
+                    <NavLink>
                       Alumni <svg width="63" height="17" viewBox="0 0 63 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.5H54.364" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3" />
                         <path d="M54.3638 2.13599L60.7277 8.49995L54.3638 14.8639" stroke="white" stroke-width="2.5" stroke-linecap="round" />
                       </svg>
 
-                    </Link>
+                    </NavLink>
                   </li>
                   <li>
-                    <Link>
+                    <NavLink>
                       International Campus <svg width="63" height="17" viewBox="0 0 63 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.5H54.364" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3" />
                         <path d="M54.3638 2.13599L60.7277 8.49995L54.3638 14.8639" stroke="white" stroke-width="2.5" stroke-linecap="round" />
                       </svg>
 
-                    </Link>
+                    </NavLink>
                   </li>
                   <li>
-                    <Link>
+                    <NavLink>
                       Policies <svg width="63" height="17" viewBox="0 0 63 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.5H54.364" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3" />
                         <path d="M54.3638 2.13599L60.7277 8.49995L54.3638 14.8639" stroke="white" stroke-width="2.5" stroke-linecap="round" />
                       </svg>
 
-                    </Link>
+                    </NavLink>
                   </li>
                 </ul>
               </div>
@@ -138,50 +139,50 @@ const Navbar = () => {
                 <h1 >Admission</h1>
                 <ul>
                   <li>
-                    <Link>
+                    <NavLink>
                       Application Process <svg width="63" height="17" viewBox="0 0 63 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.5H54.364" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3" />
                         <path d="M54.3638 2.13599L60.7277 8.49995L54.3638 14.8639" stroke="white" stroke-width="2.5" stroke-linecap="round" />
                       </svg>
 
-                    </Link>
+                    </NavLink>
 
                   </li>
                   <li>
-                    <Link>
+                    <NavLink>
                       Scholarship <svg width="63" height="17" viewBox="0 0 63 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.5H54.364" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3" />
                         <path d="M54.3638 2.13599L60.7277 8.49995L54.3638 14.8639" stroke="white" stroke-width="2.5" stroke-linecap="round" />
                       </svg>
 
-                    </Link>
+                    </NavLink>
                   </li>
                   <li>
-                    <Link>
+                    <NavLink>
                       International Students <svg width="63" height="17" viewBox="0 0 63 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.5H54.364" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3" />
                         <path d="M54.3638 2.13599L60.7277 8.49995L54.3638 14.8639" stroke="white" stroke-width="2.5" stroke-linecap="round" />
                       </svg>
 
-                    </Link>
+                    </NavLink>
                   </li>
                   <li>
-                    <Link>
+                    <NavLink>
                       Alumni <svg width="63" height="17" viewBox="0 0 63 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.5H54.364" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3" />
                         <path d="M54.3638 2.13599L60.7277 8.49995L54.3638 14.8639" stroke="white" stroke-width="2.5" stroke-linecap="round" />
                       </svg>
 
-                    </Link>
+                    </NavLink>
                   </li>
                   <li>
-                    <Link>
+                    <NavLink>
                       Accommodation  <svg width="63" height="17" viewBox="0 0 63 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.5H54.364" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3" />
                         <path d="M54.3638 2.13599L60.7277 8.49995L54.3638 14.8639" stroke="white" stroke-width="2.5" stroke-linecap="round" />
                       </svg>
 
-                    </Link>
+                    </NavLink>
                   </li>
                 </ul>
               </div>
@@ -189,95 +190,95 @@ const Navbar = () => {
                 <h1 >Information</h1>
                 <ul>
                   <li>
-                    <Link>
+                    <NavLink>
                       Transfer to Amity <svg width="63" height="17" viewBox="0 0 63 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.5H54.364" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3" />
                         <path d="M54.3638 2.13599L60.7277 8.49995L54.3638 14.8639" stroke="white" stroke-width="2.5" stroke-linecap="round" />
                       </svg>
 
-                    </Link>
+                    </NavLink>
 
                   </li>
                   <li>
-                    <Link>
+                    <NavLink>
                       Founders <svg width="63" height="17" viewBox="0 0 63 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.5H54.364" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3" />
                         <path d="M54.3638 2.13599L60.7277 8.49995L54.3638 14.8639" stroke="white" stroke-width="2.5" stroke-linecap="round" />
                       </svg>
 
-                    </Link>
+                    </NavLink>
                   </li>
                   <li>
-                    <Link>
+                    <NavLink>
                       News & Events  <svg width="63" height="17" viewBox="0 0 63 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.5H54.364" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3" />
                         <path d="M54.3638 2.13599L60.7277 8.49995L54.3638 14.8639" stroke="white" stroke-width="2.5" stroke-linecap="round" />
                       </svg>
 
-                    </Link>
+                    </NavLink>
                   </li>
                   <li>
-                    <Link>
+                    <NavLink>
                       Amity Global <svg width="63" height="17" viewBox="0 0 63 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.5H54.364" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3" />
                         <path d="M54.3638 2.13599L60.7277 8.49995L54.3638 14.8639" stroke="white" stroke-width="2.5" stroke-linecap="round" />
                       </svg>
 
-                    </Link>
+                    </NavLink>
                   </li>
                   <li>
-                    <Link>
+                    <NavLink>
                       Students Life <svg width="63" height="17" viewBox="0 0 63 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.5H54.364" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3" />
                         <path d="M54.3638 2.13599L60.7277 8.49995L54.3638 14.8639" stroke="white" stroke-width="2.5" stroke-linecap="round" />
                       </svg>
 
-                    </Link>
+                    </NavLink>
                   </li>
                   <li>
-                    <Link>
+                    <NavLink>
                       Career Centre  <svg width="63" height="17" viewBox="0 0 63 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.5H54.364" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3" />
                         <path d="M54.3638 2.13599L60.7277 8.49995L54.3638 14.8639" stroke="white" stroke-width="2.5" stroke-linecap="round" />
                       </svg>
 
-                    </Link>
+                    </NavLink>
                   </li>
                   <li>
-                    <Link>
+                    <NavLink>
                       Incubation Centre  <svg width="63" height="17" viewBox="0 0 63 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.5H54.364" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3" />
                         <path d="M54.3638 2.13599L60.7277 8.49995L54.3638 14.8639" stroke="white" stroke-width="2.5" stroke-linecap="round" />
                       </svg>
 
-                    </Link>
+                    </NavLink>
                   </li>
                   <li>
-                    <Link>
+                    <NavLink>
                       Students Abroad Program <svg width="63" height="17" viewBox="0 0 63 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.5H54.364" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3" />
                         <path d="M54.3638 2.13599L60.7277 8.49995L54.3638 14.8639" stroke="white" stroke-width="2.5" stroke-linecap="round" />
                       </svg>
 
-                    </Link>
+                    </NavLink>
                   </li>
                   <li>
-                    <Link>
+                    <NavLink>
                       Student Affairs  <svg width="63" height="17" viewBox="0 0 63 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.5H54.364" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3" />
                         <path d="M54.3638 2.13599L60.7277 8.49995L54.3638 14.8639" stroke="white" stroke-width="2.5" stroke-linecap="round" />
                       </svg>
 
-                    </Link>
+                    </NavLink>
                   </li>
                   <li>
-                    <Link>
+                    <NavLink>
                       Career with Amity  <svg width="63" height="17" viewBox="0 0 63 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.5H54.364" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3" />
                         <path d="M54.3638 2.13599L60.7277 8.49995L54.3638 14.8639" stroke="white" stroke-width="2.5" stroke-linecap="round" />
                       </svg>
 
-                    </Link>
+                    </NavLink>
                   </li>
                 </ul>
               </div>
@@ -286,6 +287,8 @@ const Navbar = () => {
 
         </div>
       </div>
+      </div>
+
     </>
   )
 }

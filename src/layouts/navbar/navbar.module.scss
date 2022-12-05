@@ -2,9 +2,12 @@ input[type="checkbox"]:checked ~ .modal {
   right: 0;
 }
 
-input[type="checkbox"]:checked ~ .navbar{
-  .burger{
+input[type="checkbox"]:checked ~ .navbar {
+  .burger {
     display: none;
+  }
+  .close {
+    display: block;
   }
 }
 
@@ -38,13 +41,13 @@ input[type="checkbox"]:checked ~ .navbar{
           text-transform: uppercase;
           color: #fff;
         }
-        &.active {
+        .active {
           padding: 10px 25px;
           background: #ffc600;
           border-radius: 100px;
-          a {
+          
             color: #002b49;
-          }
+          
         }
       }
     }
@@ -75,7 +78,6 @@ input[type="checkbox"]:checked ~ .navbar{
   overflow-y: auto;
   transition: all 0.5s ease;
   .sidebar {
-    // margin-top: 180px;
     padding: 60px 0;
     width: 100%;
     .navbar_wrapper {
@@ -193,7 +195,6 @@ input[type="checkbox"]:checked ~ .navbar{
   }
   .modal {
     .sidebar {
-      margin-top: 180px;
       padding: 60px 0;
       .navbar_wrapper {
         display: grid;
@@ -244,13 +245,12 @@ input[type="checkbox"]:checked ~ .navbar{
     align-items: start;
     justify-content: space-between;
     padding: 40px 0;
-    background-color: black;
   
     nav {
       width: 20%;
       .links {
         display: flex;
-        flex-direction: column;
+        // flex-direction: column;
         align-items: center;
         img {
           margin-right: 5px;
@@ -268,7 +268,6 @@ input[type="checkbox"]:checked ~ .navbar{
   }
   .modal {
     .sidebar {
-      margin-top: 180px;
       padding: 30px 0;
       .navbar_wrapper {
         display: grid;
@@ -295,7 +294,7 @@ input[type="checkbox"]:checked ~ .navbar{
   }
 }
 
-@media (max-width:450px){
+@media (max-width:480px){
   .navbar {
     display: flex;
     align-items: start;
@@ -336,11 +335,17 @@ input[type="checkbox"]:checked ~ .navbar{
         }
       }
       .links {
-
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         img {
           margin-right: 5px;
         }
       }
     }
+  }
+  .modal{
+  top: 160px;
+
   }
 }
