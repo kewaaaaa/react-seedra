@@ -13,9 +13,12 @@ import Select from '../../components/InputsButtons/Select'
 
 const Page4 = () => {
     return (
-        <>
+        <div className='container'>
 
-            <Title titleUp="Home  ::  PAGE  ::  Current page" />
+            <Title titleUp={
+                <span>
+                    <a href='#'>Home</a> :: <a href='#'>Page</a> :: <a href='#'>Current Page</a>
+                </span>} />
             <Title title="Apply Today" />
 
             <div className='g'>
@@ -62,7 +65,7 @@ const Page4 = () => {
                 <Facts theme={"dark"} background={rasm2} header={"83%"} subheader={"of recent graduates started new jobs"} stickColor={"#FFC600"} />
                 <Facts theme={"orange"} background={rasm3} header={"83%"} subheader={"of recent graduates started new jobs"} stickColor={"#002B49"} />
             </div>
-        </>
+        </div>
     )
 }
 
