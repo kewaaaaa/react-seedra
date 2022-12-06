@@ -68,10 +68,19 @@
     color: #59595c;
   }
 }
+.careerDiv{
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+  &::-webkit-scrollbar{
+    width: 0;
+  }
+}
 .career {
   margin: 0 auto;
   width: 1150px;
-  // display: flex-box;
+
+  // display: flex;
   // flex-direction: column;
   // overflow-x: scroll;
 }

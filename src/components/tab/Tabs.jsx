@@ -133,11 +133,13 @@ function Tabs(props) {
         )}
 
         {props.type2 ? (
-          <div className={styles.career}>
-            <CareerRow head={true} />
-            {CareerData.map((elem, index) => (
-              <CareerRow body={true} {...elem} />
-            ))}
+          <div className={styles.careerDiv}>
+            <div className={styles.career}>
+              <CareerRow head={true} />
+              {CareerData.map((elem, index) => (
+                <CareerRow body={true} {...elem} />
+              ))}
+            </div>
           </div>
         ) : (
           <span></span>
