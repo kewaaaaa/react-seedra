@@ -15,12 +15,13 @@
 input[type="checkbox"]:checked ~ .navbar {
   right: 0;
 }
-header{
-  position: fixed;top: 0;
+header {
+  position: fixed;
+  top: 0;
   left: 0;
   width: 100%;
   z-index: 99999;
-  background-color: #002B49;
+  background-color: #002b49;
 }
 .container {
   width: 100%;
@@ -29,7 +30,7 @@ header{
   padding: 0 260px;
 }
 
-main{
+main {
   min-height: calc(100vh - 455px);
 }
 
