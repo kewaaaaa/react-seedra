@@ -27,9 +27,9 @@ export class CardClass extends Component {
               <Link key={prod.id} to={`/posts/${prod.id}`}>
                 <img src={prod.image} alt="" />
                 <h1 className={s.title}>{prod.title}</h1>
-                <p className={s.price}>
+                <p className={`$${s.price}`}>
                   <p>
-                    {Math.round(prod.price * 0.9) - 0.01}
+                    {`$${Math.round(prod.price * 0.9) - 0.01}`}
                     <del>{prod.price}</del>
                   </p>
                   <button>buy</button>
