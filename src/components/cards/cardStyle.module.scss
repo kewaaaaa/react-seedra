@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cardSingle {
+  max-width: 400px;
+  min-width: 250px;
+  background-color: #ffffff;
+  margin: 25px auto;
+
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.12))
+      drop-shadow(0px 4px 30px rgba(19, 15, 38, 0.1));
+    border-radius: 6px;
+
+  img {
+    max-width: 100%;
+    &:hover {
+      filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.12))
+        drop-shadow(0px 0px 0px rgba(19, 15, 38, 0.1));
+    }
+  }
+  padding: calc(10px + 10 * (100vw / 1400));
+  h2 {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 20px;
+    color: #1a1a25;
+    margin: 10px 0;
+  }
+  .title {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 20px;
+    color: #1a1a25;
+    margin: 10px 0;
+    // white-space: nowrap;
+    // overflow: hidden;
+    // text-overflow: ellipsis;
+  }
+  .price {
+    margin: 15px 0 7px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    p {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      font-family: "Inter";
+      font-weight: 700;
+      font-size: 22px;
+      color: #1a1a25;
+      del {
+        font-size: 20px;
+        color: #858fa4;
+        font-weight: normal;
+        text-decoration: line-through;
+      }
+    }
+    button {
+      cursor: pointer;
+      background: #f53b49;
+      border-radius: 4px;
+      width: 40%;
+      font-family: "Inter";
+      font-weight: 700;
+      font-size: 14px;
+      color: #ffffff;
+      border: 1px solid transparent;
+      transition: 0.5s;
+      &:hover {
+        background-color: #1a1a2500;
+        border: 1px solid #f53b49;
+        color: #f53b49;
+      }
+    }
+  }
+}
+.card {
+  text-decoration: none;
+  background-color: #ffffff;
+  width: calc(100vw / 4);
+  position: relative;
+  border-radius: 6px;
+  transition: 0.5s;
+  max-width: 300px;
+  min-width: 250px;
+  padding: 2px;
+  &:hover {
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.12))
+      drop-shadow(0px 4px 30px rgba(19, 15, 38, 0.1));
+    border-radius: 6px;
+  }
+  img {
+    max-width: 100%;
+    height: 300px;
+    &:hover {
+      filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.12))
+        drop-shadow(0px 0px 0px rgba(19, 15, 38, 0.1));
+    }
+  }
+  padding: calc(10px + 10 * (100vw / 1400));
+  .title {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 20px;
+    color: #1a1a25;
+    margin: 10px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .price {
+    margin: 15px 0 7px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    p {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      font-family: "Inter";
+      font-weight: 700;
+      font-size: 22px;
+      color: #1a1a25;
+      del {
+        font-size: 20px;
+        color: #858fa4;
+        font-weight: normal;
+        text-decoration: line-through;
+      }
+    }
+    button {
+      cursor: pointer;
+      background: #f53b49;
+      border-radius: 4px;
+      width: 40%;
+      font-family: "Inter";
+      font-weight: 700;
+      font-size: 14px;
+      color: #ffffff;
+      border: 1px solid transparent;
+      transition: 0.5s;
+      &:hover {
+        background-color: #1a1a2500;
+        border: 1px solid #f53b49;
+        color: #f53b49;
+      }
+    }
+  }
+}

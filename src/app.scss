@@ -9,20 +9,7 @@
   font-family: "Roboto", sans-serif;
 }
 
-#check {
-  display: none;
-}
-input[type="checkbox"]:checked ~ .navbar {
-  right: 0;
-}
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 99999;
-  background-color: #002b49;
-}
+
 .container {
   width: 100%;
   max-width: 1920px;
@@ -31,7 +18,9 @@ header {
 }
 
 main {
-  min-height: calc(100vh - 455px);
+  min-height: calc(100vh - 300px);
+  padding: 100px 0 0;
+
 }
 
 // ===================== Media ======================================
@@ -86,4 +75,5 @@ main {
     margin: 0 auto;
     padding: 0 10px;
   }
+
 }

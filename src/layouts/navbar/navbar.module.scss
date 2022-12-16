@@ -1,351 +1,126 @@
-input[type="checkbox"]:checked ~ .modal {
-  right: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-input[type="checkbox"]:checked ~ .navbar {
-  .burger {
-    display: none;
-  }
-  .close {
-    display: block;
-  }
+button {
+  cursor: pointer;
 }
-
-.navbar {
-
+.navDiv {
+  box-shadow: 0px 4px 12px rgba(207, 207, 207, 0.25);
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  width: 100vw;
+  height: 77px;
+  z-index: 2;
+}
+.nav {
   display: flex;
-  align-items: start;
   justify-content: space-between;
-  padding: 40px 0;
+  height: 72px;
+  margin: auto;
+  align-items: center;
 
-  nav {
-    width: 60%;
-
+  &__list {
+    list-style: none;
+    display: flex;
+    li {
+      padding: 0 calc(0px + 15 * (100vw / 1400));
+      font-weight: 400;
+      font-size: 14px;
+      color: #70737c;
+      &:hover{
+        color: #359740;
+      }
+      &:nth-child(2) {
+        border-left: 1px solid #efefef;
+        border-right: 1px solid #efefef;
+      }
+      &:nth-child(3) {
+        border-right: 1px solid #efefef;
+      }
+    }
+  }
+  &__menuDiv {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    list-style: none;
-    ul {
-      display: flex;
-      width: 60%;
-      align-items: center;
-      justify-content: space-between;
-      list-style: none;
-      li {
-        a {
-          font-family: "Dubai";
-          font-style: normal;
-          font-weight: 700;
-          font-size: 18px;
-          line-height: 30px;
-          text-transform: uppercase;
-          color: #fff;
-        }
-        .active {
-          padding: 10px 25px;
-          background: #ffc600;
-          border-radius: 100px;
-          
-            color: #002b49;
-          
-        }
+    gap: calc(0px + 12 * (100vw / 1400));
+  }
+  &__inpDiv {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    border: 1px solid #efefef;
+    border-radius: 71px;
+  }
+  &__inp {
+    border: none;
+    outline: none;
+  }
+  &__icon {
+    &:last-child {
+      border: none;
+      display: none;
+      button {
+        border: none;
+        background-color: transparent;
       }
     }
-    .links {
-      display: flex;
-      align-items: center;
-      img {
-        margin-right: 5px;
-      }
-    }
-    .close,
-    .burger {
-      cursor: pointer;
-      transition: all 0.5s ease;
-    }
-    .close {
+  }
+
+  &__gam {
+    position: fixed;
+    top: 77px;
+    right: -150%;
+    background: #ffffff;
+    box-shadow: -50px 25px 41px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    transition: 0.5s;
+    z-index: 999;
+    & > .nav__inpDiv{
       display: none;
     }
   }
 }
-.modal {
-  position: fixed;
-  top: 180px;
-  right: -100%;
-  width: 100%;
-  height: 100%;
-  background-color: #002b49;
-  overflow-y: auto;
-  transition: all 0.5s ease;
-  .sidebar {
-    padding: 60px 0;
-    width: 100%;
-    .navbar_wrapper {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      margin-top: 60px;
-      gap: 100px;
-      h1 {
-        font-family: "Cormorant";
-        font-style: normal;
-        font-weight: 500;
-        font-size: 40px;
-        line-height: 65px;
-        text-transform: uppercase;
-        color: #ffc600;
-        padding-bottom: 30px;
-        border-bottom: 2px solid #ffc600;
-      }
-      ul {
-        margin-top: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        list-style: none;
-        li {
-          a {
-            display: inline-block;
-            align-items: center;
-            font-family: Dubai;
-            font-size: 28px;
-            font-weight: 400;
-            line-height: 47px;
-            letter-spacing: 0em;
-            text-align: left;
-            color: #fff;
-          }
-        }
-      }
-    }
-    .responsive_navbar {
-      margin-top: 60px;
+
+@media (max-width: 900px) {
+  .nav {
+    &__list {
       display: none;
-      ul {
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-
-        li {
-          a {
-            font-family: "Dubai";
-            font-style: normal;
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 30px;
-            text-transform: uppercase;
-            color: #fff;
-          }
-          &.active {
-            padding: 10px 25px;
-            background: #ffc600;
-            border-radius: 100px;
-            a {
-              color: #002b49;
-            }
-          }
-        }
-      }
     }
+    &__icon:last-child {
+      display: block;
+    }
+
   }
 }
-@media (max-width: 1024px) {
-  .navbar {
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
-    padding: 40px 0;
-
-    nav {
-      width: 30%;
+@media (max-width: 600px) {
+  .nav{
+    &__icon{
+      border: 1px solid #EFEFEF;
+      padding: 5px;
+      width: 37px;
+      height: 37px;
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      list-style: none;
-      ul {
+      justify-content: center;
+      border-radius: 50%;
+      &:nth-child(1), &:nth-child(2){
         display: none;
-        li {
-          a {
-            font-family: "Dubai";
-            font-style: normal;
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 30px;
-            text-transform: uppercase;
-            color: #fff;
-          }
-          &.active {
-            padding: 10px 25px;
-            background: #ffc600;
-            border-radius: 100px;
-            a {
-              color: #002b49;
-            }
-          }
-        }
-      }
-      .links {
-
-        img {
-          margin-right: 5px;
-        }
       }
     }
-  }
-  .modal {
-    .sidebar {
-      padding: 60px 0;
-      .navbar_wrapper {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        margin-top: 60px;
-        gap: 80px;
-        h1 {
-          font-size: 40px;
-
-          padding-bottom: 30px;
-        }
-        ul {
-          margin-top: 30px;
-
-          li {
-            a {
-              font-size: 28px;
-            }
-          }
-        }
-      }
-      .responsive_navbar {
-        margin-top: 60px;
-        display: block;
-        ul {
-  
-          li {
-           
-            &.active {
-              padding: 10px 25px;
-              background: #ffc600;
-              border-radius: 100px;
-              a {
-                color: #002b49;
-              }
-            }
-          }
-        }
+    &__menuDiv{
+      gap: 10px;
+      & > .nav__inpDiv{
+        display: none;
       }
     }
-  }
-}
-@media (max-width: 640px) {
-  .navbar {
-    position: relative;
-    z-index: 100;
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
-    padding: 40px 0;
-  
-    nav {
-      width: 20%;
-      .links {
+    &__gam{
+      & > .nav__inpDiv{
         display: flex;
-        // flex-direction: column;
-        align-items: center;
-        img {
-          margin-right: 5px;
-        }
-      }
-      .close,
-      .burger {
-        cursor: pointer;
-        transition: all 0.5s ease;
-      }
-      .close {
-        display: none;
       }
     }
-  }
-  .modal {
-    .sidebar {
-      padding: 30px 0;
-      .navbar_wrapper {
-        display: grid;
-        grid-template-columns: 1fr;
-        margin-top: 60px;
-        gap: 100px;
-        h1 {
-          font-size: 30px;
-          line-height: 65px;
-
-          padding-bottom: 20px;
-        }
-        ul {
-          margin-top: 20px;
-
-          li {
-            a {
-              font-size: 24px;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width:480px){
-  .navbar {
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
-    padding: 40px 0;
-    .logo{
-      img{
-      width: 200px;
-
-      }
-    }
-    nav {
-      width: 30%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      list-style: none;
-      ul {
-        display: none;
-        li {
-          a {
-            font-family: "Dubai";
-            font-style: normal;
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 30px;
-            text-transform: uppercase;
-            color: #fff;
-          }
-          &.active {
-            padding: 10px 25px;
-            background: #ffc600;
-            border-radius: 100px;
-            a {
-              color: #002b49;
-            }
-          }
-        }
-      }
-      .links {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        img {
-          margin-right: 5px;
-        }
-      }
-    }
-  }
-  .modal{
-  top: 160px;
-
   }
 }

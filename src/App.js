@@ -1,30 +1,29 @@
 import "./app.scss";
+import React from "react";
 import Navbar from "./layouts/navbar/Navbar";
 import Footer from "./layouts/footer/Footer";
-import Faq from "./pages/faq/Faq";
-import Apply from "./pages/page4/Page4";
 import { Routes, Route } from "react-router-dom";
-import CareerPage from "./pages/careerPage/CareerPage";
-import Page4 from "./pages/page4/Page4";
+import HomePage from "./pages/home/HomePage";
+import AllProds from "./pages/allProds/AllProds";
+import AboutPage from "./pages/about/AboutPage";
+import Func from "./pages/singlePage/SinglePage";
+
 
 function App() {
   return (
     <div className="">
-      {/* <header>
+      <header>
         <Navbar />
       </header>
-
-      <CareerPage />
-
       <main>
         <Routes>
-          <Route path="/" />
-          <Route path="/faq" element={<Faq />} />
-          <Route path="/apply" element={<Apply />} />
+           <Route path="/" element={<HomePage />} />
+          <Route path="/all_prods" element={<AllProds />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/posts/:id" element={<Func />} />
         </Routes>
+      <Footer />
       </main>
-      <Footer /> */}
-      <Page4/>
     </div>
   );
 }

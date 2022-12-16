@@ -1,0 +1,17 @@
+.prods {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  button {
+    padding: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #1f2533;
+    background-color: #fff;
+    border: 2px solid #efefef;
+    border-radius: 8px;
+  }
+}
