@@ -43,7 +43,7 @@ function HomePage() {
             button7="FLOWERS"
           />
         </div>
-        <CardClass kolva={9} />
+        <CardClass kolva={6} />
         <Title title="Our Blog." button="Go to our blog" />
         <div className={s.about}>
           <div className={s.about__txt}>

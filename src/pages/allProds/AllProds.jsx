@@ -24,7 +24,7 @@ function AllProds() {
                 <AccorDatas />
             </div>
             <div className={s.right}>
-                <CardClass kolva={10} />
+                <CardClass kolva={9} />
             </div>
         </div>
       </div>

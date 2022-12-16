@@ -73,7 +73,7 @@ function AboutPage() {
           <DatasAbout />
         </div>
         <Title title="Related products" />
-        <CardClass kolva={5} />
+        <CardClass kolva={3} />
       </div>
     </div>
   );

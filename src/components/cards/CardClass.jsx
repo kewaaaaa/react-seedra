@@ -19,7 +19,7 @@ export class CardClass extends Component {
     return (
       <div className={s.cards}>
         {this.state.products.map((prod) =>
-          prod.id < this.props.kolva ? (
+          prod.id <= this.props.kolva ? (
             <abrr
               title={prod.title + " - " + prod.description}
               className={s.card}
