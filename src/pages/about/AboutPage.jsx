@@ -1,5 +1,4 @@
 import React from "react";
-import AccorDatas from "../../components/accordion/Accordion";
 import DatasAbout from "../../components/accordion/DatasAbout";
 import CardClass from "../../components/cards/CardClass";
 import Title from "../../components/title/Title";

@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useState, useRef } from "react";
 import accor from "./accorStyle.scss";
 import DownArrowIcon from "remixicon-react/ArrowDownSLineIcon";
 import { DataAbout } from "./DataAbout";
