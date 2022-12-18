@@ -9,6 +9,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+:root {
+  --bg-dark: #060606;
+  --bg-light: #ffffff;
+}
 
 .container {
   width: 100%;
@@ -20,7 +24,13 @@
 main {
   min-height: calc(100vh - 300px);
   padding: 100px 0 0;
-
+}
+.layout {
+  background-color: var(--bg-light);
+  color: red;
+}
+.layout.dark {
+  background-color: var(--bg-dark);
 }
 
 // ===================== Media ======================================
@@ -75,5 +85,4 @@ main {
     margin: 0 auto;
     padding: 0 10px;
   }
-
 }

@@ -7,23 +7,28 @@ import HomePage from "./pages/home/HomePage";
 import AllProds from "./pages/allProds/AllProds";
 import AboutPage from "./pages/about/AboutPage";
 import Func from "./pages/singlePage/SinglePage";
-
+import { ThemeProvider } from "./providers/ThemeProvider";
+import Layout from "./layouts/LAyout/Lauout";
 
 function App() {
   return (
     <div className="">
-      <header>
-        <Navbar />
-      </header>
-      <main>
-        <Routes>
-           <Route path="/" element={<HomePage />} />
-          <Route path="/all_prods" element={<AllProds />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/posts/:id" element={<Func />} />
-        </Routes>
-      <Footer />
-      </main>
+      <ThemeProvider>
+        <Layout>
+          <header>
+            <Navbar />
+          </header>
+          <main>
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/all_prods" element={<AllProds />} />
+              <Route path="/about" element={<AboutPage />} />
+              <Route path="/posts/:id" element={<Func />} />
+            </Routes>
+            <Footer />
+          </main>
+        </Layout>
+      </ThemeProvider>
     </div>
   );
 }
