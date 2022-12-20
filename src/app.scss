@@ -12,6 +12,8 @@
 :root {
   --bg-dark: #060606;
   --bg-light: #ffffff;
+  --accent-dark: #359740;
+  --accent-light: #060606;
 }
 
 .container {
@@ -29,8 +31,11 @@ main {
   background-color: var(--bg-light);
   color: red;
 }
-.layout.dark {
+.layout.dark > *{
   background-color: var(--bg-dark);
+  h1, p, span, button, strong {
+    color: var(--accent-dark) !important;
+  }
 }
 
 // ===================== Media ======================================
