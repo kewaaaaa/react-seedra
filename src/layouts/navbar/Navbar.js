@@ -10,13 +10,16 @@ import SearchIcon from "remixicon-react/SearchLineIcon";
 import BarsIcon from "remixicon-react/BarChartHorizontalLineIcon";
 import AccorDatas from "../../components/accordion/Accordion";
 import logo from "../logoPic/navLogo.png";
+import useTheme from "../../hooks/useTheme";
 
-const Navbar = (props) => {
+const Navbar = () => {
   const [state, setState] = useState(0);
   const gum = useRef();
   const nav = useRef();
 
-  function tab(params) {
+  const {isDark, setIsDark} = useTheme()
+
+  function tab() {
     if (state) {
       setState(0);
       gum.current.style.right = "-150%";
@@ -76,6 +79,9 @@ const Navbar = (props) => {
               <NavLink to="/">
                 <CartIcon color="#359740" />
               </NavLink>
+            </span>
+            <span className={style.nav__icon}>
+              <button onClick={() => setIsDark(!isDark)}>th</button>
             </span>
             <span className={style.nav__icon}>
               <button onClick={tab}>

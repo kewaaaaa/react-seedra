@@ -9,6 +9,7 @@ import AboutPage from "./pages/about/AboutPage";
 import Func from "./pages/singlePage/SinglePage";
 import { ThemeProvider } from "./providers/ThemeProvider";
 import Layout from "./layouts/LAyout/Lauout";
+import Register from "./pages/register/Register";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           </header>
           <main>
             <Routes>
+              <Route path="/reg" element={<Register />} />
               <Route path="/" element={<HomePage />} />
               <Route path="/all_prods" element={<AllProds />} />
               <Route path="/about" element={<AboutPage />} />
